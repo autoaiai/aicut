@@ -39,9 +39,12 @@ What to do, in what order, and what never to do.
 ## Adding or changing one
 
 1. Make `skills/<name>/SKILL.md`, or edit the one that is here.
-2. Run `pnpm check:skills` — it checks the frontmatter, that `name` is the folder, and that every relative link
-   resolves inside the folder (the install copies that folder and nothing beside it).
-3. Try it the way a person would: `npx skills add ./skills --list`, then `npx skills add ./skills -g -a claude-code`
+2. If it is one the app ships with (`aicut-motion`), run `pnpm build:skills`: the desktop app carries a copy of it,
+   written into each agent's folder at start-up, and `pnpm check:skills` fails while that copy is out of date.
+3. Run `pnpm check:skills` — the frontmatter, the `name`, and every relative link resolving inside the folder (the
+   install copies that folder and nothing beside it). A `description` with an unquoted `": "` in it is caught here
+   too: YAML reads it as a nested mapping and the loader drops the whole skill.
+4. Try it the way a person would: `npx skills add ./skills --list`, then `npx skills add ./skills -g -a claude-code`
    (or your agent) and ask for the thing the description promises.
 
 Keep a skill self-contained: no symlinks, no build output, no files from elsewhere in the repository. Anything the
