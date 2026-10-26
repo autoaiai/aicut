@@ -9,8 +9,12 @@ or `packages/AiCut/SPEC.md` (the protocol, version 0.1), those are right.
 | --- | --- |
 | `film.html` | The film: which clip plays when and where. The person edits it; read it before changing it. |
 | `*.html` | Pages: one per shot, each loading what it needs by relative path. |
+| `compound-<id>.html` | A packed page: clips the person packed into one, a film of its own. Text in `#film-source` (see below). |
 | `assets/` | Media (video, pictures, sound). Only what the film can use. |
 | `.film/`, `.git/`, dot files | The tools' own. Leave them alone. |
+
+A project made from a template starts with its pages written (`pages/*.html`) and placed in film.html; a design-style
+template also brings the `aicut-motion` skill into `.pi/skills/` — read it before adding motion.
 
 ## film.html
 
@@ -70,6 +74,19 @@ or `packages/AiCut/SPEC.md` (the protocol, version 0.1), those are right.
 - Times are seconds to the millisecond; a host rounds each to three decimals. Read strictly: a misspelled attribute
   is reported, not ignored.
 - A page clip is drawn at the page's local time `in + (t − at)`; past the page's `duration` it holds its last frame.
+
+## A compound page
+
+The person can select picture clips and pack them into one (Studio's 新建复合片段). Studio writes
+`compound-<id>.html` beside film.html: a film of its own, held by film.html as a single page clip.
+
+- **Read it through `#film-source`**: a JSON *string* holding the film text — parse the string, then read that text as
+  film.html. The body's `<script type="module" src="__film/timeline.mjs">` plays it and is not part of the film; the
+  body is not readable as film.html.
+- **Its time is its own.** Inside the compound `at` starts at 0; the clip in film.html says when it plays and for how
+  long. Trim, move and scale it there.
+- **Packing and unpacking are the person's.** Studio puts the clips back on the film's tracks. Never split a compound
+  by hand unless asked, and never delete one — an undo may want it.
 
 ## A page
 

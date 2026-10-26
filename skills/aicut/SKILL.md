@@ -44,6 +44,9 @@ replace each shot in Studio.
   of it; CSS crops and scales.
 - **Sounds live in `film.html`, as clips.** A page has no sound. To place a hit heard at page time `t` inside a clip
   that starts at `at` with in-point `in`: put it at `at + t - in` seconds of the film.
+- **A packed page is a film inside the film.** `compound-*.html` holds clips the person packed; film.html keeps it as
+  one page clip. Read it through its `#film-source` JSON string, change what plays inside only when they ask, and never
+  delete one — unpacking it in Studio gives the clips back.
 - **The person is editing too.** Read `film.html` right before changing it, change only what you mean to, keep every
   `overrides` as it is, and leave whatever the tools own (`.film/`, `.git/`, any dot directory) alone. Change nothing
   on a track marked `locked`.
