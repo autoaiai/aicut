@@ -1,7 +1,7 @@
 # Skills
 
 This repository holds these skills and nothing else: no source, no build, no app. AICUT itself installs what it
-needs the first time the skill runs it, and `npx -y aicut@latest` prints the manual the skill works from.
+needs the first time the skill runs it, and `npx -y @autoaiai/aicut@latest` prints the manual the skill works from.
 
 `npx skills add autoaiai/aicut` reads this folder and copies each skill into whichever agent the person picks —
 Claude Code, Codex, Cursor, OpenCode, Gemini CLI, and the rest of the
@@ -32,7 +32,7 @@ What to do, in what order, and what never to do.
 - `name` is the folder's name: lowercase letters, digits and hyphens.
 - `description` is the whole of what the agent sees before it decides to read the skill. It names the tasks and the
   words a person would use ("launch video", "做个视频"), because that is what has to match.
-- The body is short on purpose: the format and the commands are already printed by `npx -y aicut@latest`, and a
+- The body is short on purpose: the format and the commands are already printed by `npx -y @autoaiai/aicut@latest`, and a
   skill that repeats them goes stale. `references/` holds what is worth having in front of you, read only when it is
   needed.
 
@@ -40,7 +40,9 @@ What to do, in what order, and what never to do.
 
 1. Make `skills/<name>/SKILL.md`, or edit the one that is here.
 2. If it is one the app ships with (`aicut-motion`), run `pnpm build:skills`: the desktop app carries a copy of it,
-   written into each agent's folder at start-up, and `pnpm check:skills` fails while that copy is out of date.
+   written into each agent's folder at start-up, and `pnpm check:skills` fails while that copy is out of date. The same
+   run writes every skill here into `packages/AiCut/skills/`, the copy Studio offers when a project is made ("New
+   project" → Skills) — edit a skill here, never that copy.
 3. Run `pnpm check:skills` — the frontmatter, the `name`, and every relative link resolving inside the folder (the
    install copies that folder and nothing beside it). A `description` with an unquoted `": "` in it is caught here
    too: YAML reads it as a nested mapping and the loader drops the whole skill.

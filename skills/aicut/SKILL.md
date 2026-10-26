@@ -15,18 +15,18 @@ agent that knows the web already knows how to make one.
 `aicut` prints its own manual: the format and the commands, about a thousand words, always the current version.
 
 ```sh
-npx -y aicut@latest
+npx -y @autoaiai/aicut@latest
 ```
 
-Run it before writing a film; `npx -y aicut@latest <command> --help` has one command's options. That manual is
+Run it before writing a film; `npx -y @autoaiai/aicut@latest <command> --help` has one command's options. That manual is
 authoritative — what follows is the workflow around it.
 
 ## The loop
 
-1. **Open.** `npx -y aicut@latest open <folder>` makes the folder a film (1920×1080, no tracks) and prints Studio's
+1. **Open.** `npx -y @autoaiai/aicut@latest open <folder>` makes the folder a film (1920×1080, no tracks) and prints Studio's
    address. Open that address in a browser you have: the person watches every change land there, and edits too.
 2. **Write.** `film.html` for the cut, one page per shot.
-3. **Check.** `npx -y aicut@latest look` draws a contact sheet of the whole film, its sound and loudness, and checks
+3. **Check.** `npx -y @autoaiai/aicut@latest look` draws a contact sheet of the whole film, its sound and loudness, and checks
    that the same `t` draws the same picture. `look 4.5` is one frame at full size, `look 3-6` a stretch,
    `look assets/a.mp4` a media file. Look at the PNGs it writes; do not judge from the code.
 4. **Fix, repeat.** `render` only when the person asks for the file — they export from Studio themselves.

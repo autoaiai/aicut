@@ -254,5 +254,5 @@ Sound never lives in a page. In `film.html`:
 ```
 
 One clip per hit, on its own track, at the beat's seconds. A hit heard inside a page at local time `t` goes at
-`at + t − in` of the film. When the music or the effects do not exist yet, `npx -y aicut@latest get` makes them
+`at + t − in` of the film. When the music or the effects do not exist yet, `npx -y @autoaiai/aicut@latest get` makes them
 once the person has connected a service — say which service, rather than shipping a film with a silent sound design.

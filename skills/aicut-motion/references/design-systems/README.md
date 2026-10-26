@@ -20,6 +20,6 @@ Every seed uses the same functions, all in `../pages.md`: `prog`, `EASE`, `settl
 `lib/motion.js` from there into the film once; do not paste helpers into a scene.
 
 The sound lines name instruments (`kick`, `pluck`, `scratch`, …). AICUT has no synthesiser: those are descriptions
-of the effects to fetch with `npx -y aicut@latest get` or to bring as files under `assets/`, one `<audio>` clip per hit
+of the effects to fetch with `npx -y @autoaiai/aicut@latest get` or to bring as files under `assets/`, one `<audio>` clip per hit
 on the `T` block. Write the cue list down even when the files are not there yet, so the film can be finished later
 without re-deciding the rhythm.

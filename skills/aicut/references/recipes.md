@@ -173,11 +173,11 @@ may not be longer than the clip.
 ## The order to work in
 
 ```sh
-npx -y aicut@latest open my-film          # prints Studio's address — open it
+npx -y @autoaiai/aicut@latest open my-film          # prints Studio's address — open it
 # write film.html, title.html, scenes/…
-npx -y aicut@latest look                  # the whole film, one sheet
-npx -y aicut@latest look 1.4-2.2          # the beat where the reel lands
-npx -y aicut@latest look assets/vo/1.wav  # what the voice-over sounds like, and how loud
+npx -y @autoaiai/aicut@latest look                  # the whole film, one sheet
+npx -y @autoaiai/aicut@latest look 1.4-2.2          # the beat where the reel lands
+npx -y @autoaiai/aicut@latest look assets/vo/1.wav  # what the voice-over sounds like, and how loud
 ```
 
 Read the sheet: is the headline inside the frame, does the reel sit where you meant, is any stretch black that
