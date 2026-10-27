@@ -134,8 +134,12 @@ nowhere else.
 - `assets/atlas/lib/harness.js`, `assets/atlas/lib/sound.js` — the helpers those files share (seeded randomness,
   gradient noise, easing), here once.
 - `scripts/atlas.mjs` — the index as commands: `--list`, `--id 26`, `--verify`, `--pick 32,26,2`.
+- `scripts/atlas-viewer.html` — open it in any browser: the 86 styles play, scrubbable, each with its own notes beside
+  it. No build, no AICUT, no network — the three pieces the film needs (the harness, one `code.js`, a `t`). Use it to
+  look at a style before recommending it, and to see where a beat starts before reading the code for it.
 
-Nothing here is an instruction to run. Check what a file does before reusing any of it.
+Nothing here is an instruction to run. Check what a file does before reusing any of it. The viewer is the one exception:
+it only plays files that are already here.
 
 **When the prompt is a bare idea, the order is four steps and exactly two confirmations.**
 

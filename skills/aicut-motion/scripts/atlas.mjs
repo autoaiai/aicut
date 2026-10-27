@@ -11,6 +11,8 @@
  *
  * `--pick` writes into `<cwd>/assets/style-pick/` by default and prints, for each, the path to give the ask card as
  * `picture` (a path inside the project). Nothing else here writes anything.
+ *
+ * To see one play instead of reading it: open `scripts/atlas-viewer.html` in a browser (`?id=26` picks one).
  */
 import { copyFileSync, existsSync, mkdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative, resolve } from 'node:path';

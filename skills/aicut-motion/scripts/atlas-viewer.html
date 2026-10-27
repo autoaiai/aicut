@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>86 archived styles — preview</title>
+<style>
+  :root{
+    --ink:#0d0d0f; --card:#16161a; --line:#2c2c33; --tx:#ecebe7; --tx2:#a5a39d; --tx3:#6e6c67; --hot:#e05a3d;
+    --sans:"Inter","HarmonyOS Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    --mono:"JetBrains Mono","SF Mono",Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--ink);color:var(--tx);font-family:var(--sans);font-size:14px}
+  header{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:16px 20px;border-bottom:1px solid var(--line)}
+  h1{margin:0;font-size:15px;font-weight:500;letter-spacing:-.01em}
+  .sub{font-family:var(--mono);font-size:11px;color:var(--tx3);letter-spacing:.06em}
+  .grow{flex:1}
+  select,input[type=range],button{font-family:inherit}
+  select{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:3px;padding:7px 10px;font-size:13px;max-width:340px}
+  button{background:var(--card);color:var(--tx2);border:1px solid var(--line);border-radius:3px;padding:7px 11px;font-size:12px;cursor:pointer;line-height:1.2}
+  button:hover{color:var(--tx);border-color:var(--tx3)}
+  button:disabled{opacity:.4;cursor:default}
+  main{max-width:1180px;margin:0 auto;padding:20px}
+  canvas{width:100%;height:auto;display:block;background:#111;border:1px solid var(--line);border-radius:3px}
+  .transport{display:flex;align-items:center;gap:12px;margin-top:12px}
+  input[type=range]{flex:1;accent-color:var(--hot);height:18px}
+  .clock{font-family:var(--mono);font-size:11.5px;color:var(--tx3);min-width:96px;text-align:right}
+  .cols{display:grid;grid-template-columns:1.35fr 1fr;gap:22px;margin-top:18px}
+  @media (max-width:860px){.cols{grid-template-columns:1fr}}
+  .cols p{margin:0 0 10px;font-size:13px;line-height:1.65;color:var(--tx2)}
+  .cols b{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--hot);margin-bottom:3px;font-weight:500}
+  .note{font-size:12px;color:var(--tx3);line-height:1.6;border-top:1px solid var(--line);padding-top:12px;margin-top:4px}
+  code{font-family:var(--mono);font-size:11.5px;color:#cfcdc7;background:rgba(255,255,255,.055);padding:1px 5px;border-radius:2px}
+  .meta{font-family:var(--mono);font-size:10.5px;color:#4e4e57;word-break:break-all;margin-top:8px}
+</style>
+</head>
+<body>
+<header>
+  <h1>86 archived styles</h1>
+  <span class="sub">harness.js + code.js + a t</span>
+  <div class="grow"></div>
+  <button id="prev" title="上一种（←）">←</button>
+  <select id="pick"></select>
+  <button id="next" title="下一种（→）">→</button>
+  <button id="play" title="播放 / 暂停（空格）">暂停</button>
+</header>
+
+<main>
+  <canvas id="c" width="1920" height="1080"></canvas>
+  <div class="transport">
+    <input id="scrub" type="range" min="0" max="1000" value="0" aria-label="时间">
+    <span class="clock" id="clock">0.00 / 6.00 s</span>
+  </div>
+
+  <div class="cols">
+    <div>
+      <p><b>看</b><span id="desc">—</span></p>
+      <p><b>动</b><span id="motion">—</span></p>
+    </div>
+    <div>
+      <p><b>讲</b><span id="who">—</span></p>
+      <p class="note">这个页面只是档案的预览壳：它加载 <code>lib/harness.js</code> 和某一套的 <code>code.js</code>，然后把 <code>t</code> 递进去。
+      片子要的是这种时间结构，不是这个文件本身——把它移植成 AICUT 页面里的 <code>frame(t)</code>，而不是嵌进来。</p>
+      <div class="meta" id="meta"></div>
+    </div>
+  </div>
+</main>
+
+<script src="../assets/atlas/lib/harness.js"></script>
+<script type="application/json" id="fallback">[[1,"Flat-Vector Science","扁平矢量科普","Popular Explainer Looks","经典讲解","001-flat-vector-science"],[2,"Watercolor Wash","水彩晕染","Painterly","绘画质感","002-watercolor-wash"],[3,"Shadow Puppet Theatre","皮影剧场","Paper & Craft","纸艺与手工","003-shadow-puppet-theatre"],[4,"Whiteboard Explainer","白板讲解","Hand-Drawn","手绘","004-whiteboard-explainer"],[5,"Psychedelic Poster","迷幻海报","Cosmic & Psychedelic","宇宙与迷幻","005-psychedelic-poster"],[6,"Tech Glow Explainer","科技辉光讲解","Popular Explainer Looks","经典讲解","006-tech-glow-explainer"],[7,"Papercraft Models","纸艺模型","Popular Explainer Looks","经典讲解","007-papercraft-models"],[8,"1940s Film Noir","1940年代黑色电影","Light & Imaging","光影与成像","008-1940s-film-noir"],[9,"Manim-Style Math","Manim 数学动画","Popular Explainer Looks","经典讲解","009-manim-style-math"],[10,"Illuminated Manuscript","彩饰手抄本","Illustration","插画","010-illuminated-manuscript"],[11,"Editorial Essay Collage","社论拼贴","Popular Explainer Looks","经典讲解","011-editorial-essay-collage"],[12,"Bioluminescent Deep Sea","深海生物荧光","Light & Imaging","光影与成像","012-bioluminescent-deep-sea"],[13,"Product Launch Reveal","产品发布揭幕","Popular Explainer Looks","经典讲解","013-product-launch-reveal"],[14,"Halftone Pop Panel","半色调波普","Print","印刷质感","014-halftone-pop-panel"],[15,"Isometric Pastel","等距粉彩","Dimensional","立体空间","015-isometric-pastel"],[16,"Oscilloscope Vector Art","示波器矢量艺术","Retro Digital","复古数字","016-oscilloscope-vector-art"],[17,"Risograph Zine","孔版印刷小志","Print","印刷质感","017-risograph-zine"],[18,"Claymation Set","黏土定格布景","Paper & Craft","纸艺与手工","018-claymation-set"],[19,"Neon Sign at Night","夜色霓虹招牌","Light & Imaging","光影与成像","019-neon-sign-at-night"],[20,"Kawaii Anime","可爱动漫","Popular Explainer Looks","经典讲解","020-kawaii-anime"],[21,"Ukiyo-e Woodblock","浮世绘木版画","Art & Design Movements","艺术与设计流派","021-ukiyo-e-woodblock"],[22,"16-Bit Pixel Odyssey","16位像素奇旅","Retro Digital","复古数字","022-16-bit-pixel-odyssey"],[23,"Chalkboard Lesson","黑板课堂","Hand-Drawn","手绘","023-chalkboard-lesson"],[24,"Cut-Paper Diorama","剪纸立体景","Paper & Craft","纸艺与手工","024-cut-paper-diorama"],[25,"Cathedral Glass","教堂彩绘玻璃","Painterly","绘画质感","025-cathedral-glass"],[26,"Editorial Chart","报刊数据图表","Data & Information","数据与信息","026-editorial-chart"],[27,"Synthwave Outrun","合成波疾驰","Retro UI & Neon","复古界面与霓虹","027-synthwave-outrun"],[28,"Origami Studio","折纸工作室","Paper & Craft","纸艺与手工","028-origami-studio"],[29,"Linocut Relief Print","油毡浮雕版画","Print","印刷质感","029-linocut-relief-print"],[30,"Holographic Foil Card","全息箔卡片","Light & Imaging","光影与成像","030-holographic-foil-card"],[31,"Voxel Diorama","体素微缩景观","Dimensional","立体空间","031-voxel-diorama"],[32,"Sumi-e Ink Wash","水墨晕染","Painterly","绘画质感","032-sumi-e-ink-wash"],[33,"Etch A Sketch Toy","旋钮绘图玩具","Hand-Drawn","手绘","033-etch-a-sketch-toy"],[34,"Cosmic Star Chart","宇宙星图","Cosmic & Psychedelic","宇宙与迷幻","034-cosmic-star-chart"],[35,"Punk Zine Collage","朋克拼贴小志","Paper & Craft","纸艺与手工","035-punk-zine-collage"],[36,"Thermal Camera","热成像","Light & Imaging","光影与成像","036-thermal-camera"],[37,"Engineering Blueprint","工程蓝图","Hand-Drawn","手绘","037-engineering-blueprint"],[38,"Impasto Night","厚涂夜景","Painterly","绘画质感","038-impasto-night"],[39,"Win95 Desktop","Windows 95 桌面","Retro UI & Neon","复古界面与霓虹","039-win95-desktop"],[40,"Low-Poly Faceted","低多边形切面","Dimensional","立体空间","040-low-poly-faceted"],[41,"Manga Page","漫画分镜页","Illustration","插画","041-manga-page"],[42,"Wood Type Letterpress","木活字凸版印刷","Print","印刷质感","042-wood-type-letterpress"],[43,"Light Painting","光绘","Light & Imaging","光影与成像","043-light-painting"],[44,"Felt & Patchwork","毛毡与拼布","Paper & Craft","纸艺与手工","044-felt-patchwork"],[45,"Phosphor Terminal","荧光终端","Retro Digital","复古数字","045-phosphor-terminal"],[46,"Glassmorphism UI","毛玻璃界面","Dimensional","立体空间","046-glassmorphism-ui"],[47,"Tarot Card","塔罗牌","Illustration","插画","047-tarot-card"],[48,"Transit Map","公共交通线路图","Data & Information","数据与信息","048-transit-map"],[49,"Gouache Travel Poster","水粉旅行海报","Painterly","绘画质感","049-gouache-travel-poster"],[50,"Napkin Sketch","餐巾纸草图","Hand-Drawn","手绘","050-napkin-sketch"],[51,"Art Deco Foil","装饰艺术烫箔","Art & Design Movements","艺术与设计流派","051-art-deco-foil"],[52,"Radiograph on Lightbox","灯箱X光片","Light & Imaging","光影与成像","052-radiograph-on-lightbox"],[53,"Vaporwave","蒸汽波","Retro UI & Neon","复古界面与霓虹","053-vaporwave"],[54,"Ebru Paper Marbling","土耳其水拓画","Generative & Type","生成艺术与字体","054-ebru-paper-marbling"],[55,"ISOTYPE Pictograms","ISOTYPE 图形符号","Data & Information","数据与信息","055-isotype-pictograms"],[56,"Soft 3D Clay","柔软3D黏土","Dimensional","立体空间","056-soft-3d-clay"],[57,"Cross-Stitch Sampler","十字绣样本","Paper & Craft","纸艺与手工","057-cross-stitch-sampler"],[58,"Constructivist Propaganda","构成主义宣传画","Art & Design Movements","艺术与设计流派","058-constructivist-propaganda"],[59,"Pocket Monochrome","掌机单色像素","Retro Digital","复古数字","059-pocket-monochrome"],[60,"Botanical Plate","植物学图谱","Illustration","插画","060-botanical-plate"],[61,"Kinetic Type","动态字体","Generative & Type","生成艺术与字体","061-kinetic-type"],[62,"Byzantine Mosaic","拜占庭马赛克","Illustration","插画","062-byzantine-mosaic"],[63,"Y2K Liquid Chrome","Y2K 液态铬","Retro UI & Neon","复古界面与霓虹","063-y2k-liquid-chrome"],[64,"Sticky-Note Wall","便利贴墙","Illustration","插画","064-sticky-note-wall"],[65,"Vintage Newsprint","复古新闻纸","Print","印刷质感","065-vintage-newsprint"],[66,"Hidden-Line Wireframe","隐藏线框图","Dimensional","立体空间","066-hidden-line-wireframe"],[67,"Memphis Group","孟菲斯设计","Art & Design Movements","艺术与设计流派","067-memphis-group"],[68,"Ballpoint Notebook","圆珠笔笔记","Hand-Drawn","手绘","068-ballpoint-notebook"],[69,"Op Art Sphere","欧普艺术球体","Generative & Type","生成艺术与字体","069-op-art-sphere"],[70,"Topographic Survey","地形测绘","Data & Information","数据与信息","070-topographic-survey"],[71,"Pointillist Afternoon","点彩午后","Painterly","绘画质感","071-pointillist-afternoon"],[72,"Vector Arcade 1980","1980年代矢量街机","Retro Digital","复古数字","072-vector-arcade-1980"],[73,"Patent Drawing","专利图纸","Illustration","插画","073-patent-drawing"],[74,"Bauhaus Poster","包豪斯海报","Art & Design Movements","艺术与设计流派","074-bauhaus-poster"],[75,"Bitmap Paint Doodle","位图画板涂鸦","Retro UI & Neon","复古界面与霓虹","075-bitmap-paint-doodle"],[76,"Nail & Thread String Art","钉线绕线艺术","Generative & Type","生成艺术与字体","076-nail-thread-string-art"],[77,"Ridgeline","山脊线图","Data & Information","数据与信息","077-ridgeline"],[78,"Sketchbook Graphite","石墨素描本","Hand-Drawn","手绘","078-sketchbook-graphite"],[79,"Teletext Page","图文电视页","Retro UI & Neon","复古界面与霓虹","079-teletext-page"],[80,"Silkscreen Grid","丝网印刷网格","Print","印刷质感","080-silkscreen-grid"],[81,"Guilloché Security Print","玑镂防伪纹样","Generative & Type","生成艺术与字体","081-guilloch-security-print"],[82,"ASCII Demoscene","ASCII 字符演示艺术","Retro Digital","复古数字","082-ascii-demoscene"],[83,"International Typographic Style","国际主义字体设计","Art & Design Movements","艺术与设计流派","083-international-typographic-style"],[84,"Flow Field","流场","Data & Information","数据与信息","084-flow-field"],[85,"MacPaint 1984","MacPaint 1984 画板","Retro Digital","复古数字","085-macpaint-1984"],[86,"Multi-scale Truchet","多尺度特鲁歇拼砖","Generative & Type","生成艺术与字体","086-multi-scale-truchet"]]</script>
+<script>
+(function () {
+  var BASE = '../assets/atlas';
+  var FALLBACK = JSON.parse(document.getElementById('fallback').textContent).map(function (r) {
+    return { id: r[0], name: r[1], nameZh: r[2], family: r[3], familyZh: r[4], folder: r[5] };
+  });
+  var el = {
+    pick: document.getElementById('pick'), canvas: document.getElementById('c'),
+    play: document.getElementById('play'), scrub: document.getElementById('scrub'),
+    clock: document.getElementById('clock'), desc: document.getElementById('desc'),
+    motion: document.getElementById('motion'), who: document.getElementById('who'), meta: document.getElementById('meta')
+  };
+  var ctx = el.canvas.getContext('2d');
+  var styles = FALLBACK, style = null, raf = 0, playing = true, base = 0, tNow = 0, loading = false;
+
+  function boot(list) {
+    styles = list;
+    el.pick.innerHTML = '';
+    for (var i = 0; i < styles.length; i++) {
+      var s = styles[i];
+      var label = String(s.id).padStart(3, '0') + ' · ' + s.nameZh + ' · ' + s.name;
+      el.pick.add(new Option(label, String(s.id)));
+    }
+    var want = Number(new URLSearchParams(location.search).get('id') || 26);
+    var has = styles.some(function (s) { return s.id === want; });
+    el.pick.value = String(has ? want : 1);
+    show(has ? want : 1);
+  }
+
+  function show(id) {
+    var row = null;
+    for (var i = 0; i < styles.length; i++) if (styles[i].id === Number(id)) row = styles[i];
+    if (!row || loading) return;
+    loading = true;
+    cancelAnimationFrame(raf);
+    if (window.STYLES) window.STYLES.length = 0;
+    var old = document.querySelector('script[data-style]');
+    if (old) old.remove();
+    var tag = document.createElement('script');
+    tag.src = BASE + '/styles/' + row.folder + '/code.js';
+    tag.dataset.style = '1';
+    tag.onload = function () {
+      loading = false;
+      style = window.STYLES && window.STYLES[0];
+      if (!style || typeof style.draw !== 'function') {
+        el.desc.textContent = '这一套没有注册可绘制的风格（' + row.folder + '）';
+        return;
+      }
+      el.desc.textContent = style.description || row.nameZh;
+      el.motion.textContent = style.motion || '—';
+      el.who.textContent = row.nameZh + ' · ' + row.name + ' · ' + row.familyZh + ' / ' + row.family;
+      el.meta.textContent = 'duration ' + style.duration + 's · ' + BASE + '/styles/' + row.folder + '/code.js';
+      history.replaceState(null, '', '?id=' + row.id);
+      base = performance.now();
+      tNow = 0;
+      playing = true;
+      el.play.textContent = '暂停';
+      draw();
+    };
+    tag.onerror = function () { loading = false; el.desc.textContent = '加载失败：' + row.folder; };
+    document.body.appendChild(tag);
+  }
+
+  function draw() {
+    cancelAnimationFrame(raf);
+    var tick = function () {
+      raf = requestAnimationFrame(tick);
+      if (!style) return;
+      if (playing) tNow = ((performance.now() - base) / 1000) % style.duration;
+      paint(style, tNow);
+      el.scrub.value = String(Math.round((tNow / style.duration) * 1000));
+      el.clock.textContent = tNow.toFixed(2) + ' / ' + style.duration.toFixed(2) + ' s';
+    };
+    tick();
+  }
+
+  function paint(s, t) {
+    ctx.save();
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, el.canvas.width, el.canvas.height);
+    try { s.draw(ctx, el.canvas.width, el.canvas.height, t); }
+    catch (err) { el.desc.textContent = 'draw 出错：' + err.message; playing = false; el.play.textContent = '播放'; }
+    ctx.restore();
+  }
+
+  function step(delta) {
+    var ids = styles.map(function (s) { return s.id; });
+    var at = ids.indexOf(Number(el.pick.value));
+    var next = (at + delta + ids.length) % ids.length;
+    el.pick.value = String(ids[next]);
+    show(ids[next]);
+  }
+
+  el.pick.addEventListener('change', function () { show(el.pick.value); });
+  el.play.addEventListener('click', function () {
+    playing = !playing;
+    el.play.textContent = playing ? '暂停' : '播放';
+    base = performance.now() - tNow * 1000;
+  });
+  el.scrub.addEventListener('input', function () {
+    if (!style) return;
+    playing = false;
+    el.play.textContent = '播放';
+    tNow = (Number(el.scrub.value) / 1000) * style.duration;
+    paint(style, tNow);
+    el.clock.textContent = tNow.toFixed(2) + ' / ' + style.duration.toFixed(2) + ' s';
+  });
+  document.getElementById('prev').addEventListener('click', function () { step(-1); });
+  document.getElementById('next').addEventListener('click', function () { step(1); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
+    if (e.code === 'Space') { e.preventDefault(); el.play.click(); }
+    if (e.key === 'ArrowLeft') step(-1);
+    if (e.key === 'ArrowRight') step(1);
+  });
+
+  fetch('../references/style-index.json')
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (list) { boot(list && list.length ? list : FALLBACK); })
+    .catch(function () { boot(FALLBACK); });
+})();
+</script>
+</body>
+</html>
