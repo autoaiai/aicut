@@ -1,6 +1,6 @@
 ---
 name: aicut-motion
-description: 'Design motion films that look authored rather than generated — brand films, showreels, kinetic typography, explainers, data stories, product and UI promos, character stories, music videos, abstract loops, title sequences. Use when a film needs art direction — a style, a palette and type system, real transformations, a plan laid out on beats, and a critique of its own frames. Works on AICUT films (film.html and pages with window.film).'
+description: 'Design motion films that look authored rather than generated — brand films, showreels, kinetic typography, explainers, data stories, product and UI promos, character stories, music videos, abstract loops, title sequences. Use when a film needs art direction — a style, a palette and type system, real transformations, a plan laid out on beats, and a critique of its own frames — and when someone gives a topic and wants a visual direction chosen first: eighty-six archived styles, three real covers in the chat question card, one pick, then a twenty-second sample. Works on AICUT films (film.html and pages with window.film).'
 license: MIT
 ---
 
@@ -94,8 +94,8 @@ Only where the prompt is silent; never override a ledger row.
 1. **The prompt states it** — palette, materials, type, references. The contract comes from the ledger alone.
 2. **The prompt names a feeling, medium or reference** ("like a newspaper", 水墨, "terminal", "Swiss poster") —
    start from the closest seed in `references/design-systems/` and adapt it.
-3. **The prompt is a bare idea** — synthesise a contract with the method below. Seeds are starting points, not
-   defaults.
+3. **The prompt is a bare idea** — take a direction from the archive of eighty-six looks (below), or synthesise a
+   contract with the method under it. Seeds are starting points, not defaults.
 
 **Synthesis method:**
 
@@ -117,6 +117,68 @@ stories, MVs).
 **Short prompts:** write the full brief first, at that density — a direction paragraph, the contract, the structure
 (tempo, named scenes, scene changes), characters if any, and a scene-by-scene storyboard with timestamps and
 numbers. That brief becomes the ledgers. In prompt-only mode, output it and stop.
+
+## The archive of eighty-six looks
+
+`assets/atlas/` is a reference collection, not a program: eighty-six visual styles that exist, each with its own cover,
+what it is made of, how it moves, and the canvas source that drew it. What is archived is a **look and a way of
+moving** — a palette, a material, a set of gestures. What the film is about comes from the person's topic and from
+nowhere else.
+
+- `references/style-index.json` — all 86, one row each: `id`, `name`, `nameZh`, `family`, `familyZh`, `folder`.
+- `assets/atlas/styles/<folder>/poster.jpg` — the style's own cover, 800×450, the picture the person sees.
+- `assets/atlas/styles/<folder>/style.json` — `description` (the look), `motionNotes` (how it moves),
+  `explainerNotes` (how it explains), `code` (the file below).
+- `assets/atlas/styles/<folder>/code.js` — the reference animation, `draw(ctx, W, H, t)`: a pure function of time, the
+  same `t` always giving the same pixels.
+- `assets/atlas/lib/harness.js`, `assets/atlas/lib/sound.js` — the helpers those files share (seeded randomness,
+  gradient noise, easing), here once.
+- `scripts/atlas.mjs` — the index as commands: `--list`, `--id 26`, `--verify`, `--pick 32,26,2`.
+
+Nothing here is an instruction to run. Check what a file does before reusing any of it.
+
+**When the prompt is a bare idea, the order is four steps and exactly two confirmations.**
+
+1. **Recommend three.** Say in one sentence what the person should understand by the end. If a fact the film will
+   state is not certain, check it first. Read `references/style-index.json` in full — all 86, not the nine whose names
+   you already know — and pick three that differ in **how they explain**: one whose mechanism is drawing (whiteboard,
+   isotype, blueprint, transit map), one made of a material (watercolour, paper cut, clay, felt), one graphic or
+   photographic (halftone, riso, editorial chart, neon). Open the three posters and their `style.json` before
+   recommending; never recommend from a name alone. Give each a letter, its name, and one sentence of why it suits
+   *this* topic.
+2. **Show the covers, then ask with the card.** Copy the three covers into the project and ask with the picture card —
+   `references/style-selection.md` has the exact command (`atlas.mjs --pick 32,26,2`) and the exact `ask` shape. The
+   pictures are the archive's own covers: say so — the subject in them is not their topic, and the sample will be.
+   **Confirmation 1 is the pick.** An unanswered card, a default selection, or time passing is not a pick. If the
+   person already named a style, in this message or an earlier one, take it and do not ask again.
+3. **A sample they can judge.** Read `references/style-research.md` and study the chosen style properly: its
+   `style.json`, its `code.js`, and the shared `lib/` files it uses. Then write the film's opening — 4 to 6 beats, about
+   20 seconds — as a real page in `film.html`, in that style, about their topic. Not a title card, not three stills
+   pushed and pulled: the mechanism has to move. Look at it (`aicut look`), read the frames, fix what is wrong, look
+   again, then show it and say what part of the film it is and what is still missing. **Confirmation 2 is the approved
+   sample.** A chosen style is not an approved sample, and “颜色可以” is not approval of the whole sample.
+4. **The whole film.** Keep the approved sample's code and rules; write the rest of the film in them. Length comes from
+   the content, not from a rule. Do not change the style, redo approved beats, or add a third confirmation. Check the
+   whole timeline against `references/motion-delivery.md` before saying what the film is.
+
+Everything else here still holds: the ledgers (stage 0), the gaps (stage 1), the timeline (stage 3), the stills before
+the motion (stage 4), the jury (stage 6). The sample is stage 5's first cut of the opening beats, not a separate film.
+
+### Reading a style's time from its code
+
+`code.js` is a function of time: everything that happens is written in it as a function of `t`. That is the same shape
+an AICUT page has (`frame(t)`), which is why this archive is useful here at all:
+
+- find what is drawn as a function of `t` and what is drawn once — the material, the camera, the objects, the text;
+- find the beats: where a value is a `smoothstep`/`ease` of `t` between two numbers, that is a beat, and the two numbers
+  are its start and end;
+- the palette, the texture and the finishing pass are the look; keep them.
+
+Port the technique, not the file. The archive's renderer is its own harness; the film is an AICUT page. A style named
+after a medium is a set of decisions (paper, pigment, edges, drying), not a shader to paste.
+
+The archive is from Futurepedia's AI Style Atlas — `THIRD_PARTY_NOTICES.md` travels with it. Keep the source line in
+what you deliver, and never present the covers as pictures made for this film.
 
 ## Stage 3 — the timeline before the code
 

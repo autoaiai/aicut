@@ -3,11 +3,15 @@
 This repository holds these skills and nothing else: no source, no build, no app. AICUT itself installs what it
 needs the first time the skill runs it, and `npx -y @autoaiai/aicut@latest` prints the manual the skill works from.
 
-`aicut` and `aicut-motion` are written here. The rest are methods gathered from open-source agent skills
-([the catalogue](https://asaipm.com/#skill), 186 repositories), rewritten so the way they run is AICUT's — `film.html`
-and the four commands — while the method itself is their author's. Each says where it came from (`source:` in the
-frontmatter, a **Source** section at the end) and under which licence it travels; skills whose licence does not allow
-redistribution are not here.
+Two skills, one job each: `aicut` is the film format and the four commands, `aicut-motion` is the art direction
+(priority order, the design contract, the timeline, the seven design systems) **and the archive of eighty-six looks** —
+a real cover, `style.json` and the canvas source of each — with the three-card pick that turns one line of a topic into
+a chosen style.
+
+Both are written here. The archive inside `aicut-motion` came from an open-source agent skill
+([the catalogue](https://asaipm.com/#skill)) — Futurepedia's AI Style Atlas — and was rewritten so the way it runs is
+AICUT's: `film.html` and the four commands. `THIRD_PARTY_NOTICES.md` inside the skill says where it came from and under
+which licence it travels.
 
 `npx skills add autoaiai/aicut` reads this folder and copies each skill into whichever agent the person picks —
 Claude Code, Codex, Cursor, OpenCode, Gemini CLI, and the rest of the
