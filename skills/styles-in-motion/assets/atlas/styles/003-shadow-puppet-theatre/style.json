@@ -1,0 +1,13 @@
+{
+  "id": 3,
+  "name": "Shadow Puppet Theatre",
+  "nameZh": "皮影剧场",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "description": "Black cut-out silhouettes with punched lace-like cut-work, pinned joints and thin control rods, pressed against a backlit cloth screen glowing amber at the lamp and falling to red-brown at the edges, with coloured gels in the openings.",
+  "motionNotes": "Motion: The oil lamp sputters alight, puppets slide and hop in on their rods with jointed limbs swinging, hanging cards drop and sway on their strings, and the flame keeps the screen gently breathing.",
+  "explainerNotes": "Explainer: Told as a little shadow play: a mechanical owl puppet is fed picture cards on rods, guesses on a hanging tag, a teacher's hand corrects it and its cut-work gears re-set, then it climbs a ladder toward a filling moon; transitions are the medium's own (the owl flies at the lamp so its shadow fills the screen, the lamp is turned down and up, lace curtains close and part), arrows are growing hide vines and labels are punched plaques on strings.",
+  "code": "code.js",
+  "registeredAs": "shadow-puppet",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

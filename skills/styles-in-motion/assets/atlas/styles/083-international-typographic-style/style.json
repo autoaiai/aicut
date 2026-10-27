@@ -1,0 +1,13 @@
+{
+  "id": 83,
+  "name": "International Typographic Style",
+  "nameZh": "国际主义字体设计",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "description": "A 1960s Zürich-school concert-style poster: strict 12-column modular grid, enormous flush-left grotesk set tight, an asymmetric field of rotating concentric arc segments over a red disc, and small precise info blocks hung from the grid — red, black and white only.",
+  "motionNotes": "Motion: Rules draw out along the grid, the red disc opens and the ring segments spin in and decelerate until they lock onto a 22.5° module; the headline rises line by line out of its baseline masks and the info blocks step in column by column, then the rings drift like a slow mechanical score.",
+  "explainerNotes": "Explainer: A Zürich-school information sequence on the same 12-column grid: the headline shrinks into a running header, pages change with a column-by-column red wipe, hairline rules with solid heads carry cause and flow, numbers count in Inter 800 and the key result gets a red block slammed behind it.",
+  "code": "code.js",
+  "registeredAs": "swiss-grid",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

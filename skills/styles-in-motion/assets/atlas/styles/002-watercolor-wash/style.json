@@ -1,0 +1,13 @@
+{
+  "id": 2,
+  "name": "Watercolor Wash",
+  "nameZh": "水彩晕染",
+  "family": "Painterly",
+  "familyZh": "绘画质感",
+  "description": "Transparent pigment glazed in dozens of ragged low-opacity layers on cold-press paper: dark pooled edges, wet-in-wet bleeds, cauliflower blooms, granulation and untouched white paper for the lights, over a faint pencil sketch.",
+  "motionNotes": "Motion: Each wash floods in from its pencil outline, edges darken as the water dries and blooms creep outward; the title is brushed in stroke by stroke.",
+  "explainerNotes": "Explainer: One long sketchbook sheet the camera pans along; arrows are loaded round-brush strokes with pooled edges, labels and the counter are brush-lettered and re-written as they change, and red alizarin circles do the emphasis.",
+  "code": "code.js",
+  "registeredAs": "watercolor",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

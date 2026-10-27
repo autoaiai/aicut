@@ -1,0 +1,13 @@
+{
+  "id": 46,
+  "name": "Glassmorphism UI",
+  "nameZh": "毛玻璃界面",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "description": "Frosted-glass UI: translucent panels that genuinely blur the vivid gradient blobs and orbs behind them, with 1px light borders, a diagonal specular sheen, fine frost grain and crisp Inter type.",
+  "motionNotes": "Motion: Color blobs bloom up under the glass, the frosted card rises in, then the chat plays out (user bubble pops, the AI reply types itself line by line) while stat chips float in glass-over-glass and their ring and sparkline draw on; blobs keep drifting so the frost shimmers.",
+  "explainerNotes": "Explainer: The camera glides and zooms across one big frosted dashboard (data feed → network card → output chat → accuracy chart → pull back) while the live colour blobs drift behind, so every panel re-frosts as it moves; connectors are glowing gradient lines with travelling light dots, labels are glass pills, numbers count in big Inter 800.",
+  "code": "code.js",
+  "registeredAs": "glassmorphism",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

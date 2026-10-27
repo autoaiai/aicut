@@ -1,0 +1,13 @@
+{
+  "id": 67,
+  "name": "Memphis Group",
+  "nameZh": "孟菲斯设计",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "description": "Early-80s Memphis Milano maximalism: pastel grounds clashing with bold primaries, thick black outlines and hard offset shadows, squiggles, zigzags, dot grids, terrazzo chips and confetti triangles, all orbiting a chunky tilted chat-bubble headline.",
+  "motionNotes": "Motion: Cut-out cel timing on twos: the mint wedge slides in, shapes pop on one by one with springy overshoot, squiggles and zigzags draw themselves, the chat bubble squash-and-stretches in, the words pop on the beat, confetti bursts out and the sticker slaps on; then everything bobs off-beat and the typing dots bounce.",
+  "explainerNotes": "Explainer: Memphis cut-out animation on twos: examples hop into a funnel-topped totem computer, scenes change with a striped polka-dot band that swipes across, arrows are fat outlined shapes with hard shadows, counters are stickers that pop on each tick, and the key moments get a spinning starburst.",
+  "code": "code.js",
+  "registeredAs": "memphis",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

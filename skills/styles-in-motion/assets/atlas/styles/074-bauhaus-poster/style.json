@@ -1,0 +1,13 @@
+{
+  "id": 74,
+  "name": "Bauhaus Poster",
+  "nameZh": "包豪斯海报",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "description": "A 1920s Bauhaus exhibition poster: primary red, yellow and blue plus black on aged cream stock, a robot face built only from circles, squares, semicircles and triangles on a strict grid, with constructed geometric lettering and lithographic ink mottle.",
+  "motionNotes": "Motion: Built like a workshop paste-up: grid rules draw out, the halo and head drop in and snap with a little overshoot, features stamp on one by one, then the constructed letters are set block by block and the type follows; in the hold the pupils swivel and the antenna waves pulse.",
+  "explainerNotes": "Explainer: Told as one long Bayer-style info-design sheet the camera tracks along and finally pulls back from, with thick bar-and-triangle arrows, tags that drop onto what they name, stamped Space Grotesk counters and a red ring drawn round the key moment.",
+  "code": "code.js",
+  "registeredAs": "bauhaus",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

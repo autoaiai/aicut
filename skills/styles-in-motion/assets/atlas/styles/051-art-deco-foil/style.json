@@ -1,0 +1,13 @@
+{
+  "id": 51,
+  "name": "Art Deco Foil",
+  "nameZh": "装饰艺术烫箔",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "description": "A 1920s Art Deco poster in black lacquer and stamped gold foil: a symmetrical stepped ziggurat skyscraper built from server racks, sunburst fans radiating behind it, a stepped geometric border, and Limelight / Poiret One lettering with cream accents.",
+  "motionNotes": "Motion: Like a gilded title sequence: the stepped border inscribes itself, the server ziggurat rises floor by floor with its LEDs waking, halo arcs close symmetrically and the sunburst fans open, the spire extends and its beacon ignites, the title is foil-stamped letter by letter, then one slow glint sweeps across the gold.",
+  "explainerNotes": "Explainer: A gilded picture-palace sequence: scenes change behind closing and opening gold elevator doors, cameos glide on a gold rail with cream name plaques, arrows are stepped chevron arrows, numbers roll on an odometer and fill a sunburst gauge, and the key moments get a spotlight ring or a beacon glint.",
+  "code": "code.js",
+  "registeredAs": "art-deco",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

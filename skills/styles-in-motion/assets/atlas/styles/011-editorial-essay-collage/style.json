@@ -1,0 +1,13 @@
+{
+  "id": 11,
+  "name": "Editorial Essay Collage",
+  "nameZh": "社论拼贴",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "description": "The editorial \"animated essay\" collage: warm grainy paper, archival halftone prints with torn white borders and soft shadows, newspaper clippings in serif type with a translucent yellow highlighter sweep, masking tape, flat colour blocks and big cut-out condensed headlines.",
+  "motionNotes": "Motion: Cutouts drop and slide in on 12 fps hand-animated steps while the camera pushes smoothly through parallax layers; the highlighter sweeps left to right and a red marker rings the key detail.",
+  "explainerNotes": "Explainer: Scenes are joined by fast blurred camera whips that hide the cut, plus a new paper sheet slid up on steps; arrows are thin ink route lines and red marker, numbers are re-cut condensed numerals on paper strips, and the emphasis is the yellow highlighter sweep (plus a red marker ring and cross on the wrong guess).",
+  "code": "code.js",
+  "registeredAs": "editorial-collage",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

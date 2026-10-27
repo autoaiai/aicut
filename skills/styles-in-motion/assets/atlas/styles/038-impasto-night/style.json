@@ -1,0 +1,13 @@
+{
+  "id": 38,
+  "name": "Impasto Night",
+  "nameZh": "厚涂夜景",
+  "family": "Painterly",
+  "familyZh": "绘画质感",
+  "description": "Thick oil paint in short loaded strokes that follow a swirling flow field, Post-Impressionist night-sky style; every stroke stands off the canvas with a lit ridge and a shadowed edge, colour broken within each stroke.",
+  "motionNotes": "Motion: The sky's strokes slowly rotate along their swirl and the halos around the moon and stars pulse ring by ring, as if the paint itself were turning.",
+  "explainerNotes": "Explainer: The camera travels along one long swirling night-sky canvas; arrows, rings, labels and numbers are all laid on as fat lit daubs of paint (shadow edge, body, highlight ridge) in chrome yellow and vermilion against the blues.",
+  "code": "code.js",
+  "registeredAs": "impasto-oil",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

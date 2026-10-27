@@ -1,0 +1,13 @@
+{
+  "id": 29,
+  "name": "Linocut Relief Print",
+  "nameZh": "油毡浮雕版画",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "description": "A hand-carved two-colour relief print: tapering white gouge strokes cut from dense black, parallel carving for tone, a red reduction layer, salty uneven ink on cream rice paper, signed and numbered in pencil.",
+  "motionNotes": "Motion: The proof is pulled twice — the red sheet peels back diagonally, then the black key — then the edition number, title and signature are pencilled in while a raking glint slides across the wet ink and the camera eases in.",
+  "explainerNotes": "Explainer: Each beat is a newly carved block pulled as a fresh proof that peels back over the last one; arrows are gouged channels (the error path printed red), counters are carved numerals re-cut on twos, and emphasis is the printmaker's own pencil circle and margin note.",
+  "code": "code.js",
+  "registeredAs": "linocut",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

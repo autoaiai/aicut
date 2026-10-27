@@ -1,0 +1,13 @@
+{
+  "id": 63,
+  "name": "Y2K Liquid Chrome",
+  "nameZh": "Y2K 液态铬",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "description": "Millennium-futurist liquid chrome: environment-mapped metaball blobs and inflated chrome bubble letters with thin-film iridescence, soap bubbles, starburst glints and frosted pill UI in silver, ice-blue and lilac.",
+  "motionNotes": "Motion: Mercury droplets fly in, overshoot and merge into one blob, chrome letters inflate one by one with a springy pop, frosted pills glide up, and reflections, bubbles and glints keep sliding and twinkling.",
+  "explainerNotes": "Explainer: A glossy millennium interface explains it: the model is a living mercury blob that liquid-morphs to a new spot at every scene change while frosted-glass panels swoosh in and out, arrows are iridescent ribbons, labels are glossy pills, and the counter and 97% are inflated chrome bubble digits.",
+  "code": "code.js",
+  "registeredAs": "y2k-chrome",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

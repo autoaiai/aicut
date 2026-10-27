@@ -1,0 +1,13 @@
+{
+  "id": 47,
+  "name": "Tarot Card",
+  "nameZh": "塔罗牌",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "description": "An aged art-nouveau tarot trump on crushed velvet: bold even outlines, flat muted lithograph colours, gold-foil halos and borders, celestial symbols and a worn, foxed cardstock with frayed corners.",
+  "motionNotes": "Motion: The card is dealt and flips onto the velvet; a sheen of light slides across the gold foil while the orbiting planets drift around the automaton.",
+  "explainerNotes": "Explainer: Told as a tarot reading: cards are dealt, flipped and gathered off the velvet as the scene changes, gold filigree arrows link the spread, brass plaques count the examples and the accuracy, and a burst of gold light marks the wrong guess and the 97%.",
+  "code": "code.js",
+  "registeredAs": "tarot-card",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

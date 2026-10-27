@@ -1,0 +1,13 @@
+{
+  "id": 18,
+  "name": "Claymation Set",
+  "nameZh": "黏土定格布景",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "description": "A plasticine stop-motion still: chunky hand-squished characters and props with soft waxy subsurface shading, thumbprints, tool marks and lumpy silhouettes on a sculpted clay set, shot with shallow depth of field.",
+  "motionNotes": "Motion: Animated on twos: the character boils subtly between frames, fingerprints shift, the waving arm snaps pose-to-pose and the chat-bubble dots pop like little clay balls.",
+  "explainerNotes": "Explainer: Animated on twos on one clay set: every piece is a baked plasticine lump that the \"animator\" pops on with squash-and-stretch, slides along the table or knocks off so it falls out of frame; arrows are rolled clay coils, labels and the counter are pressed clay letters re-sculpted each time the number changes, and the wrong guess gets a red clay X slapped on with a shake.",
+  "code": "code.js",
+  "registeredAs": "claymation",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

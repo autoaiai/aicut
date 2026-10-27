@@ -1,0 +1,13 @@
+{
+  "id": 42,
+  "name": "Wood Type Letterpress",
+  "nameZh": "木活字凸版印刷",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "description": "A two-ink wood-type broadside on cream stock: mixed display faces set block by block, each letter inked a little differently, wood grain and worn edges in the solids, ink squeezed to the rims and the whole forme bitten into the paper.",
+  "motionNotes": "Motion: The forme is proofed block by block — rules first, then each wood letter lands with a heavy kiss of the platen, red and black alternating down the sheet — and the gears keep turning as the impression deepens.",
+  "explainerNotes": "Explainer: Every beat is a new proof: the finished sheet is lifted off the press and a fresh one is laid down, then wood type, stock cuts of a cat and a dog, and arrows set from short rule pieces lock up block by block with a kiss of the platen; counters are re-set and re-stamped six times a second, and the wrong guess gets a red rubber-stamp WRONG.",
+  "code": "code.js",
+  "registeredAs": "letterpress",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 71,
+  "name": "Pointillist Afternoon",
+  "nameZh": "点彩午后",
+  "family": "Painterly",
+  "familyZh": "绘画质感",
+  "description": "Neo-Impressionist divisionism: every form is built from small dabs of unmixed pigment — complementary hues side by side that blend optically — with the canvas weave peeking between the dots and a dotted painted border.",
+  "motionNotes": "Motion: Dots shimmer as individual dabs re-pick their hue each frame while the overall colour holds, like light vibrating on the water; the sailboat drifts and the parasol sways.",
+  "explainerNotes": "Explainer: Every frame re-dabs one fixed field of pure-pigment dots against the current scene, so moving things shimmer as dots re-pick their hue; scene changes are the canvas being re-dabbed in a diagonal sweep, and lettering, arrows, counters and the emphasis rings are all fine dabs.",
+  "code": "code.js",
+  "registeredAs": "pointillism",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

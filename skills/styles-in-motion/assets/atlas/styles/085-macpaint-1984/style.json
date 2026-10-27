@@ -1,0 +1,13 @@
+{
+  "id": 85,
+  "name": "MacPaint 1984",
+  "nameZh": "MacPaint 1984 画板",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "description": "Pure 1-bit black & white at the original 72-dpi grain: real Atkinson-dithered grayscale (blown-out highlights, crunchy shadows), 8x8 fill patterns, striped title bars, marching ants and bitmap type.",
+  "motionNotes": "Motion: Built the way a 1984 user would: the dithered image scans in row by row, then pencil, line, bucket, rectangle and text tools each switch on in the palette and lay down their marks in snappy, unanimated 1-bit steps, ending on crawling marching ants.",
+  "explainerNotes": "Explainer: Explains with the 1984 desktop itself: an alert asks the question and, once OK is clicked, zoom-rects turn it into the window title; labelled Finder icons are dragged into a Model icon while the item count climbs; a Model window cycles Guess/Check/Adjust buttons with a stop alert and menu-bar beep flash, dashed error arrow and Control-Panel weight sliders; a pattern-filled chart climbs to 97% inside marching ants.",
+  "code": "code.js",
+  "registeredAs": "mac-1bit",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

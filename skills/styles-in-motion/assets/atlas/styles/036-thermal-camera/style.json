@@ -1,0 +1,13 @@
+{
+  "id": 36,
+  "name": "Thermal Camera",
+  "nameZh": "热成像",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "description": "A handheld IR camera frame in ironbow: soft low-res heat field, cold glasses and warm breath, hot coffee and GPU racks, edge-enhanced outlines, sensor noise and the camera’s own HUD with spot meter, box measurement and scale bar.",
+  "motionNotes": "Motion: Camera clicks through its shutter calibration, the auto-gain settles, coffee is hot-poured and steam rises, rack bands heat up bottom to top while the spot meter glides onto the mug and the readouts tick live.",
+  "explainerNotes": "Explainer: Everything is filmed through the IR camera: scenes change with the shutter-calibration (NUC) click, heat is activity and a cold wave is the error signal, while the camera’s own HUD does the explaining with spot-meter arrows, measurement-box emphasis, tag labels riding on objects and live readouts.",
+  "code": "code.js",
+  "registeredAs": "thermal-camera",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

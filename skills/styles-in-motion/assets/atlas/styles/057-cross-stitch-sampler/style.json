@@ -1,0 +1,13 @@
+{
+  "id": 57,
+  "name": "Cross-Stitch Sampler",
+  "nameZh": "十字绣样本",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "description": "Pixel art worked as real counted cross-stitch on cream aida: every cell is an X of two-strand floss with sheen and twist, top legs all leaning the same way, dark backstitch outlines, all stretched in a wooden hoop.",
+  "motionNotes": "Motion: The design fills in stitch by stitch in chart order, the needle hopping row to row trailing its floss, while the hoop drifts gently.",
+  "explainerNotes": "Explainer: One long sampler slides through the hoop from motif to motif; everything is stitched cell by cell with the needle chasing the newest stitch, arrows and outlines are backstitch laid one hole at a time, numbers are re-stitched in a 3x5 sampler font, and the wrong guess gets a red running-stitch ring.",
+  "code": "code.js",
+  "registeredAs": "cross-stitch",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

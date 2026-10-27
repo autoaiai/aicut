@@ -1,0 +1,13 @@
+{
+  "id": 15,
+  "name": "Isometric Pastel",
+  "nameZh": "等距粉彩",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "description": "Clean vector isometric illustration: true 30° projection, flat three-tone face shading, soft pastel palette with a single coral accent, tiny people for scale and long soft shadows on a floating tile.",
+  "motionNotes": "Motion: The floating tile rises into frame, buildings, tanks and racks pop up one by one on springy overshoot, then LEDs blink, fans spin, data cubes stream up and tiny workers stroll during a slow camera push.",
+  "explainerNotes": "Explainer: One long isometric factory floor (data shelves → conveyor → glass-top neural machine → monitor → bar chart) that the camera glides along beat to beat, with white label tags pinned to objects, curved dashed connectors, a counting billboard and an accuracy tag riding the newest bar.",
+  "code": "code.js",
+  "registeredAs": "isometric",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

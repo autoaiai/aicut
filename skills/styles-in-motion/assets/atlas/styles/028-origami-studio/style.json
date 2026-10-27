@@ -1,0 +1,13 @@
+{
+  "id": 28,
+  "name": "Origami Studio",
+  "nameZh": "折纸工作室",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "description": "Folded-paper models shot on a seamless studio sweep: every form is flat facets with consistent fold shading, crisp crease lines, two-tone paper and soft table shadows.",
+  "motionNotes": "Motion: Models unfold into place crease by crease, the paper crane-drone bobs on spinning paper rotors while the key light slowly orbits the table.",
+  "explainerNotes": "Explainer: The camera dollies along one long studio table: every prop folds up from flat paper, arrows are creased paper arrows lying on the table with the label printed on them, numbers are printed on tent cards that refold, and the wrong guess gets a camera push-in and a key-light flare.",
+  "code": "code.js",
+  "registeredAs": "origami",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

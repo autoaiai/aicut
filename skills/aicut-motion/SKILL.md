@@ -19,7 +19,7 @@ The gap is rarely taste. It is behaviour:
 - build one shared system, so everything stays consistent;
 - look at the output and fix it.
 
-Read `npx -y @autoaiai/aicut@latest` once before the first film: it is the format and the tools, and it is authoritative. This
+Read `npx -y aicut@latest` once before the first film: it is the format and the tools, and it is authoritative. This
 skill is how to decide what to draw.
 
 ## Priority order
@@ -201,7 +201,7 @@ my-film/
 - **Fonts.** System stacks, or a font in `assets/` with `document.fonts.load('700 64px …')` awaited in `ready`.
   Never a font that may not arrive.
 - **Sound.** A music or ambience `<audio>` clip, plus one clip per hit on its own track, all in `film.html`. Generated
-  music and effects come from `npx -y @autoaiai/aicut@latest get`, once the person has connected a service.
+  music and effects come from `npx -y aicut@latest get`, once the person has connected a service.
 - **Completeness.** No TODOs. If space runs out, stop at the end of a file with `// CONTINUE FROM <path>`.
 
 ## Stage 6 — the jury
@@ -227,9 +227,9 @@ Fix everything below 8, worst first, up to three rounds.
 **How to look:**
 
 ```sh
-npx -y @autoaiai/aicut@latest look            # the whole film: contact sheet, sound, loudness, same-t check
-npx -y @autoaiai/aicut@latest look 4.5        # one frame at full size
-npx -y @autoaiai/aicut@latest look 3-6        # a stretch, densely
+npx -y aicut@latest look            # the whole film: contact sheet, sound, loudness, same-t check
+npx -y aicut@latest look 4.5        # one frame at full size
+npx -y aicut@latest look 3-6        # a stretch, densely
 TIMES are worth naming: the first frame, each scene's first full frame, the loop seam
 ```
 
@@ -248,7 +248,7 @@ Reply in this order:
    kept across materials`; `format · W×H · duration · S##`. Any X row done by overlay, crossfade or whole-frame
    scaling is a failure — fix it before replying.
 5. **Jury**: five scores, and the three things you are least sure of.
-6. **运行方法**: `npx -y @autoaiai/aicut@latest open <folder>` and open the address it prints; `look` to check; `render` for
+6. **运行方法**: `npx -y aicut@latest open <folder>` and open the address it prints; `look` to check; `render` for
    the MP4 when the person wants the file.
 
 **Follow-ups.** 继续 → only the remaining files. 评审修复 → run stage 6 on new stills, then output only the changed

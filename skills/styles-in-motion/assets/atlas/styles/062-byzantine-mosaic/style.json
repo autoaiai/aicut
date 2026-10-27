@@ -1,0 +1,13 @@
+{
+  "id": 62,
+  "name": "Byzantine Mosaic",
+  "nameZh": "拜占庭马赛克",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "description": "A Byzantine wall mosaic built from thousands of hand-cut tesserae laid in rows that echo every contour (andamento), with mortar grout, bevelled tile edges, per-tile colour variation and a glinting gold-smalti ground.",
+  "motionNotes": "Motion: Light rakes across the wall so individual gold smalti flash in turn; tiles could be laid row by row outward from the figure.",
+  "explainerNotes": "Explainer: Every scene is a fresh andamento-tessellated wall: tiles are laid element by element (arrows tile by tile along their length), scene changes pry the old tesserae up and re-lay the wall in a sweeping front, counters are live tesserae re-set on a grid, and gold smalti flash on the key moments.",
+  "code": "code.js",
+  "registeredAs": "mosaic",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

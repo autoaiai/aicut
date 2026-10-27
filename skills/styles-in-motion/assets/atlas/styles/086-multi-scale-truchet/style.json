@@ -1,0 +1,13 @@
+{
+  "id": 86,
+  "name": "Multi-scale Truchet",
+  "nameZh": "多尺度特鲁歇拼砖",
+  "family": "Generative & Type",
+  "familyZh": "生成艺术与字体",
+  "description": "Bold two-ink multi-scale Truchet tiling of winged quarter-circle tiles whose paths flow continuously across three scales; a third ink fills only the closed regions that fall inside the letters \"AI\", so the word surfaces from the maze.",
+  "motionNotes": "Motion: Big tiles are laid in a diagonal sweep, then each scale subdivides in turn (paths re-routing as detail arrives); then the accent screen is pulled across and slides into register, revealing AI.",
+  "explainerNotes": "Explainer: The model is a Truchet maze whose tiles are its weights: an input band routes to the wrong output, the error runs back along the path and two tiles quarter-turn to re-route it; scenes change by re-laying the tiles in a diagonal sweep, labels are printed blocks with misregistered accent, and the accuracy chart is built from stacked tiles.",
+  "code": "code.js",
+  "registeredAs": "truchet",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

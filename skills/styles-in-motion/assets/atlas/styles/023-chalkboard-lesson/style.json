@@ -1,0 +1,13 @@
+{
+  "id": 23,
+  "name": "Chalkboard Lesson",
+  "nameZh": "黑板课堂",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "description": "Dusty chalk on a green slate: grainy, broken strokes that skip over the board tooth, colored chalk accents, cloudy eraser smears from past lessons, and a worn oak frame with a dusty chalk tray.",
+  "motionNotes": "Motion: Chalk lines scratch on with a little dust fall, the ball hops down the curve step by step, and old eraser clouds slowly drift as the board is wiped.",
+  "explainerNotes": "Explainer: A teacher-style lesson on one long slate: a chalk stick writes and draws while the camera tracks along the board (the hook is left behind, the chart is on the next stretch of board), arrows are dusty chalk strokes, numbers are re-chalked as they count, and pink chalk rings the key moments.",
+  "code": "code.js",
+  "registeredAs": "chalkboard",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

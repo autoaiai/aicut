@@ -15,18 +15,18 @@ agent that knows the web already knows how to make one.
 `aicut` prints its own manual: the format and the commands, about a thousand words, always the current version.
 
 ```sh
-npx -y @autoaiai/aicut@latest
+npx -y aicut@latest
 ```
 
-Run it before writing a film; `npx -y @autoaiai/aicut@latest <command> --help` has one command's options. That manual is
+Run it before writing a film; `npx -y aicut@latest <command> --help` has one command's options. That manual is
 authoritative — what follows is the workflow around it.
 
 ## The loop
 
-1. **Open.** `npx -y @autoaiai/aicut@latest open <folder>` makes the folder a film (1920×1080, no tracks) and prints Studio's
+1. **Open.** `npx -y aicut@latest open <folder>` makes the folder a film (1920×1080, no tracks) and prints Studio's
    address. Open that address in a browser you have: the person watches every change land there, and edits too.
 2. **Write.** `film.html` for the cut, one page per shot.
-3. **Check.** `npx -y @autoaiai/aicut@latest look` draws a contact sheet of the whole film, its sound and loudness, and checks
+3. **Check.** `npx -y aicut@latest look` draws a contact sheet of the whole film, its sound and loudness, and checks
    that the same `t` draws the same picture. `look 4.5` is one frame at full size, `look 3-6` a stretch,
    `look assets/a.mp4` a media file. Look at the PNGs it writes; do not judge from the code.
 4. **Fix, repeat.** `render` only when the person asks for the file — they export from Studio themselves.
@@ -44,9 +44,6 @@ replace each shot in Studio.
   of it; CSS crops and scales.
 - **Sounds live in `film.html`, as clips.** A page has no sound. To place a hit heard at page time `t` inside a clip
   that starts at `at` with in-point `in`: put it at `at + t - in` seconds of the film.
-- **A packed page is a film inside the film.** `compound-*.html` holds clips the person packed; film.html keeps it as
-  one page clip. Read it through its `#film-source` JSON string, change what plays inside only when they ask, and never
-  delete one — unpacking it in Studio gives the clips back.
 - **The person is editing too.** Read `film.html` right before changing it, change only what you mean to, keep every
   `overrides` as it is, and leave whatever the tools own (`.film/`, `.git/`, any dot directory) alone. Change nothing
   on a track marked `locked`.

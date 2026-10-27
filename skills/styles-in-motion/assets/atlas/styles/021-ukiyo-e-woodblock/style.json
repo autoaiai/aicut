@@ -1,0 +1,13 @@
+{
+  "id": 21,
+  "name": "Ukiyo-e Woodblock",
+  "nameZh": "浮世绘木版画",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "description": "An Edo-period woodblock print in the manner of Hokusai: Prussian-blue bokashi gradients, a towering wave with claw-like foam whose spray breaks into data cubes, a cargo ship stacked with server racks in the trough, flat colour blocks with carved keyblock outlines, wood grain and washi fibre, a vertical-text cartouche and vermilion seal.",
+  "motionNotes": "Motion: Printed like a real woodblock: the black keyblock lands first, then each colour block is pressed in turn (sky ochre, pale blue, mid blue, vermilion, Prussian) and the bokashi sky is wiped on last, while the wave swells, its claws lean and data-cube spray tumbles onto the rolling ship.",
+  "explainerNotes": "Explainer: An emaki handscroll unrolled right-to-left: golden kasumi clouds divide the scenes, a river of labelled prints floats to an Edo karakuri automaton, flow is drawn as currents with claw-foam heads, the learning loop is a Naruto whirlpool, numbers sit in paper cartouches and every judgement is a vermilion seal stamp.",
+  "code": "code.js",
+  "registeredAs": "ukiyo-e",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

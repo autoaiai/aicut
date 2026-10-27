@@ -3,6 +3,12 @@
 This repository holds these skills and nothing else: no source, no build, no app. AICUT itself installs what it
 needs the first time the skill runs it, and `npx -y @autoaiai/aicut@latest` prints the manual the skill works from.
 
+`aicut` and `aicut-motion` are written here. The rest are methods gathered from open-source agent skills
+([the catalogue](https://asaipm.com/#skill), 186 repositories), rewritten so the way they run is AICUT's — `film.html`
+and the four commands — while the method itself is their author's. Each says where it came from (`source:` in the
+frontmatter, a **Source** section at the end) and under which licence it travels; skills whose licence does not allow
+redistribution are not here.
+
 `npx skills add autoaiai/aicut` reads this folder and copies each skill into whichever agent the person picks —
 Claude Code, Codex, Cursor, OpenCode, Gemini CLI, and the rest of the
 [80-odd supported agents](https://github.com/vercel-labs/skills/blob/main/docs/agents.md).

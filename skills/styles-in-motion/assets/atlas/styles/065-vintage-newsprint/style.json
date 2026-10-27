@@ -1,0 +1,13 @@
+{
+  "id": 65,
+  "name": "Vintage Newsprint",
+  "nameZh": "复古新闻纸",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "description": "A 1950s broadsheet front page: blackletter masthead, condensed banner headline, dense justified greeked columns and a coarse halftone wire photo, printed in thin uneven ink on yellowed pulp with show-through from the reverse.",
+  "motionNotes": "Motion: The classic spinning-newspaper reveal: the page whirls up out of the dark and slaps flat to fill the frame, then the camera creeps in on the headline while the console lamps blink and the tape reels turn in the halftone photo.",
+  "explainerNotes": "Explainer: The viewer reads the paper: the camera tracks from the banner headline down to a By-the-Numbers infographic, the page physically turns to an inside Science spread whose diagram, chart and pull quote carry the rest; arrows are crisp newspaper-diagram rules, numbers are set in Oswald, and emphasis is a reader's red grease-pencil ring.",
+  "code": "code.js",
+  "registeredAs": "newsprint",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

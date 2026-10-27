@@ -1,0 +1,13 @@
+{
+  "id": 5,
+  "name": "Psychedelic Poster",
+  "nameZh": "迷幻海报",
+  "family": "Cosmic & Psychedelic",
+  "familyZh": "宇宙与迷幻",
+  "description": "1960s San Francisco concert-poster psychedelia: full-strength inks in vibrating complementary pairs, liquid churning ring bands, sunbursts and a mirror-symmetric eye-flower, with bulbous melting Shrikhand lettering on worn poster stock.",
+  "motionNotes": "Motion: Colour ripples out from the centre, petals unfurl and the eye opens, then the lettering melts into place while the liquid bands keep slowly churning.",
+  "explainerNotes": "Explainer: The model is a giant eye-flower whose petals are its weights: examples ride striped ribbons into it, the wrong guess makes the inks clash and jitter, the correction folds the swirl into a symmetric mandala, 97% bursts into a kaleidoscope sunburst; scenes change by kaleidoscope rotation, a liquid melt and an iris ripple.",
+  "code": "code.js",
+  "registeredAs": "psychedelic",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

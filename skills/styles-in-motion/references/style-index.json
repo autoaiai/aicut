@@ -1,0 +1,690 @@
+[
+ {
+  "id": 1,
+  "name": "Flat-Vector Science",
+  "nameZh": "扁平矢量科普",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "folder": "001-flat-vector-science"
+ },
+ {
+  "id": 2,
+  "name": "Watercolor Wash",
+  "nameZh": "水彩晕染",
+  "family": "Painterly",
+  "familyZh": "绘画质感",
+  "folder": "002-watercolor-wash"
+ },
+ {
+  "id": 3,
+  "name": "Shadow Puppet Theatre",
+  "nameZh": "皮影剧场",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "folder": "003-shadow-puppet-theatre"
+ },
+ {
+  "id": 4,
+  "name": "Whiteboard Explainer",
+  "nameZh": "白板讲解",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "folder": "004-whiteboard-explainer"
+ },
+ {
+  "id": 5,
+  "name": "Psychedelic Poster",
+  "nameZh": "迷幻海报",
+  "family": "Cosmic & Psychedelic",
+  "familyZh": "宇宙与迷幻",
+  "folder": "005-psychedelic-poster"
+ },
+ {
+  "id": 6,
+  "name": "Tech Glow Explainer",
+  "nameZh": "科技辉光讲解",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "folder": "006-tech-glow-explainer"
+ },
+ {
+  "id": 7,
+  "name": "Papercraft Models",
+  "nameZh": "纸艺模型",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "folder": "007-papercraft-models"
+ },
+ {
+  "id": 8,
+  "name": "1940s Film Noir",
+  "nameZh": "1940年代黑色电影",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "folder": "008-1940s-film-noir"
+ },
+ {
+  "id": 9,
+  "name": "Manim-Style Math",
+  "nameZh": "Manim 数学动画",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "folder": "009-manim-style-math"
+ },
+ {
+  "id": 10,
+  "name": "Illuminated Manuscript",
+  "nameZh": "彩饰手抄本",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "folder": "010-illuminated-manuscript"
+ },
+ {
+  "id": 11,
+  "name": "Editorial Essay Collage",
+  "nameZh": "社论拼贴",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "folder": "011-editorial-essay-collage"
+ },
+ {
+  "id": 12,
+  "name": "Bioluminescent Deep Sea",
+  "nameZh": "深海生物荧光",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "folder": "012-bioluminescent-deep-sea"
+ },
+ {
+  "id": 13,
+  "name": "Product Launch Reveal",
+  "nameZh": "产品发布揭幕",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "folder": "013-product-launch-reveal"
+ },
+ {
+  "id": 14,
+  "name": "Halftone Pop Panel",
+  "nameZh": "半色调波普",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "folder": "014-halftone-pop-panel"
+ },
+ {
+  "id": 15,
+  "name": "Isometric Pastel",
+  "nameZh": "等距粉彩",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "folder": "015-isometric-pastel"
+ },
+ {
+  "id": 16,
+  "name": "Oscilloscope Vector Art",
+  "nameZh": "示波器矢量艺术",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "folder": "016-oscilloscope-vector-art"
+ },
+ {
+  "id": 17,
+  "name": "Risograph Zine",
+  "nameZh": "孔版印刷小志",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "folder": "017-risograph-zine"
+ },
+ {
+  "id": 18,
+  "name": "Claymation Set",
+  "nameZh": "黏土定格布景",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "folder": "018-claymation-set"
+ },
+ {
+  "id": 19,
+  "name": "Neon Sign at Night",
+  "nameZh": "夜色霓虹招牌",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "folder": "019-neon-sign-at-night"
+ },
+ {
+  "id": 20,
+  "name": "Kawaii Anime",
+  "nameZh": "可爱动漫",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "folder": "020-kawaii-anime"
+ },
+ {
+  "id": 21,
+  "name": "Ukiyo-e Woodblock",
+  "nameZh": "浮世绘木版画",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "folder": "021-ukiyo-e-woodblock"
+ },
+ {
+  "id": 22,
+  "name": "16-Bit Pixel Odyssey",
+  "nameZh": "16位像素奇旅",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "folder": "022-16-bit-pixel-odyssey"
+ },
+ {
+  "id": 23,
+  "name": "Chalkboard Lesson",
+  "nameZh": "黑板课堂",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "folder": "023-chalkboard-lesson"
+ },
+ {
+  "id": 24,
+  "name": "Cut-Paper Diorama",
+  "nameZh": "剪纸立体景",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "folder": "024-cut-paper-diorama"
+ },
+ {
+  "id": 25,
+  "name": "Cathedral Glass",
+  "nameZh": "教堂彩绘玻璃",
+  "family": "Painterly",
+  "familyZh": "绘画质感",
+  "folder": "025-cathedral-glass"
+ },
+ {
+  "id": 26,
+  "name": "Editorial Chart",
+  "nameZh": "报刊数据图表",
+  "family": "Data & Information",
+  "familyZh": "数据与信息",
+  "folder": "026-editorial-chart"
+ },
+ {
+  "id": 27,
+  "name": "Synthwave Outrun",
+  "nameZh": "合成波疾驰",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "folder": "027-synthwave-outrun"
+ },
+ {
+  "id": 28,
+  "name": "Origami Studio",
+  "nameZh": "折纸工作室",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "folder": "028-origami-studio"
+ },
+ {
+  "id": 29,
+  "name": "Linocut Relief Print",
+  "nameZh": "油毡浮雕版画",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "folder": "029-linocut-relief-print"
+ },
+ {
+  "id": 30,
+  "name": "Holographic Foil Card",
+  "nameZh": "全息箔卡片",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "folder": "030-holographic-foil-card"
+ },
+ {
+  "id": 31,
+  "name": "Voxel Diorama",
+  "nameZh": "体素微缩景观",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "folder": "031-voxel-diorama"
+ },
+ {
+  "id": 32,
+  "name": "Sumi-e Ink Wash",
+  "nameZh": "水墨晕染",
+  "family": "Painterly",
+  "familyZh": "绘画质感",
+  "folder": "032-sumi-e-ink-wash"
+ },
+ {
+  "id": 33,
+  "name": "Etch A Sketch Toy",
+  "nameZh": "旋钮绘图玩具",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "folder": "033-etch-a-sketch-toy"
+ },
+ {
+  "id": 34,
+  "name": "Cosmic Star Chart",
+  "nameZh": "宇宙星图",
+  "family": "Cosmic & Psychedelic",
+  "familyZh": "宇宙与迷幻",
+  "folder": "034-cosmic-star-chart"
+ },
+ {
+  "id": 35,
+  "name": "Punk Zine Collage",
+  "nameZh": "朋克拼贴小志",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "folder": "035-punk-zine-collage"
+ },
+ {
+  "id": 36,
+  "name": "Thermal Camera",
+  "nameZh": "热成像",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "folder": "036-thermal-camera"
+ },
+ {
+  "id": 37,
+  "name": "Engineering Blueprint",
+  "nameZh": "工程蓝图",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "folder": "037-engineering-blueprint"
+ },
+ {
+  "id": 38,
+  "name": "Impasto Night",
+  "nameZh": "厚涂夜景",
+  "family": "Painterly",
+  "familyZh": "绘画质感",
+  "folder": "038-impasto-night"
+ },
+ {
+  "id": 39,
+  "name": "Win95 Desktop",
+  "nameZh": "Windows 95 桌面",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "folder": "039-win95-desktop"
+ },
+ {
+  "id": 40,
+  "name": "Low-Poly Faceted",
+  "nameZh": "低多边形切面",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "folder": "040-low-poly-faceted"
+ },
+ {
+  "id": 41,
+  "name": "Manga Page",
+  "nameZh": "漫画分镜页",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "folder": "041-manga-page"
+ },
+ {
+  "id": 42,
+  "name": "Wood Type Letterpress",
+  "nameZh": "木活字凸版印刷",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "folder": "042-wood-type-letterpress"
+ },
+ {
+  "id": 43,
+  "name": "Light Painting",
+  "nameZh": "光绘",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "folder": "043-light-painting"
+ },
+ {
+  "id": 44,
+  "name": "Felt & Patchwork",
+  "nameZh": "毛毡与拼布",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "folder": "044-felt-patchwork"
+ },
+ {
+  "id": 45,
+  "name": "Phosphor Terminal",
+  "nameZh": "荧光终端",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "folder": "045-phosphor-terminal"
+ },
+ {
+  "id": 46,
+  "name": "Glassmorphism UI",
+  "nameZh": "毛玻璃界面",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "folder": "046-glassmorphism-ui"
+ },
+ {
+  "id": 47,
+  "name": "Tarot Card",
+  "nameZh": "塔罗牌",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "folder": "047-tarot-card"
+ },
+ {
+  "id": 48,
+  "name": "Transit Map",
+  "nameZh": "公共交通线路图",
+  "family": "Data & Information",
+  "familyZh": "数据与信息",
+  "folder": "048-transit-map"
+ },
+ {
+  "id": 49,
+  "name": "Gouache Travel Poster",
+  "nameZh": "水粉旅行海报",
+  "family": "Painterly",
+  "familyZh": "绘画质感",
+  "folder": "049-gouache-travel-poster"
+ },
+ {
+  "id": 50,
+  "name": "Napkin Sketch",
+  "nameZh": "餐巾纸草图",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "folder": "050-napkin-sketch"
+ },
+ {
+  "id": 51,
+  "name": "Art Deco Foil",
+  "nameZh": "装饰艺术烫箔",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "folder": "051-art-deco-foil"
+ },
+ {
+  "id": 52,
+  "name": "Radiograph on Lightbox",
+  "nameZh": "灯箱X光片",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "folder": "052-radiograph-on-lightbox"
+ },
+ {
+  "id": 53,
+  "name": "Vaporwave",
+  "nameZh": "蒸汽波",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "folder": "053-vaporwave"
+ },
+ {
+  "id": 54,
+  "name": "Ebru Paper Marbling",
+  "nameZh": "土耳其水拓画",
+  "family": "Generative & Type",
+  "familyZh": "生成艺术与字体",
+  "folder": "054-ebru-paper-marbling"
+ },
+ {
+  "id": 55,
+  "name": "ISOTYPE Pictograms",
+  "nameZh": "ISOTYPE 图形符号",
+  "family": "Data & Information",
+  "familyZh": "数据与信息",
+  "folder": "055-isotype-pictograms"
+ },
+ {
+  "id": 56,
+  "name": "Soft 3D Clay",
+  "nameZh": "柔软3D黏土",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "folder": "056-soft-3d-clay"
+ },
+ {
+  "id": 57,
+  "name": "Cross-Stitch Sampler",
+  "nameZh": "十字绣样本",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "folder": "057-cross-stitch-sampler"
+ },
+ {
+  "id": 58,
+  "name": "Constructivist Propaganda",
+  "nameZh": "构成主义宣传画",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "folder": "058-constructivist-propaganda"
+ },
+ {
+  "id": 59,
+  "name": "Pocket Monochrome",
+  "nameZh": "掌机单色像素",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "folder": "059-pocket-monochrome"
+ },
+ {
+  "id": 60,
+  "name": "Botanical Plate",
+  "nameZh": "植物学图谱",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "folder": "060-botanical-plate"
+ },
+ {
+  "id": 61,
+  "name": "Kinetic Type",
+  "nameZh": "动态字体",
+  "family": "Generative & Type",
+  "familyZh": "生成艺术与字体",
+  "folder": "061-kinetic-type"
+ },
+ {
+  "id": 62,
+  "name": "Byzantine Mosaic",
+  "nameZh": "拜占庭马赛克",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "folder": "062-byzantine-mosaic"
+ },
+ {
+  "id": 63,
+  "name": "Y2K Liquid Chrome",
+  "nameZh": "Y2K 液态铬",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "folder": "063-y2k-liquid-chrome"
+ },
+ {
+  "id": 64,
+  "name": "Sticky-Note Wall",
+  "nameZh": "便利贴墙",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "folder": "064-sticky-note-wall"
+ },
+ {
+  "id": 65,
+  "name": "Vintage Newsprint",
+  "nameZh": "复古新闻纸",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "folder": "065-vintage-newsprint"
+ },
+ {
+  "id": 66,
+  "name": "Hidden-Line Wireframe",
+  "nameZh": "隐藏线框图",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "folder": "066-hidden-line-wireframe"
+ },
+ {
+  "id": 67,
+  "name": "Memphis Group",
+  "nameZh": "孟菲斯设计",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "folder": "067-memphis-group"
+ },
+ {
+  "id": 68,
+  "name": "Ballpoint Notebook",
+  "nameZh": "圆珠笔笔记",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "folder": "068-ballpoint-notebook"
+ },
+ {
+  "id": 69,
+  "name": "Op Art Sphere",
+  "nameZh": "欧普艺术球体",
+  "family": "Generative & Type",
+  "familyZh": "生成艺术与字体",
+  "folder": "069-op-art-sphere"
+ },
+ {
+  "id": 70,
+  "name": "Topographic Survey",
+  "nameZh": "地形测绘",
+  "family": "Data & Information",
+  "familyZh": "数据与信息",
+  "folder": "070-topographic-survey"
+ },
+ {
+  "id": 71,
+  "name": "Pointillist Afternoon",
+  "nameZh": "点彩午后",
+  "family": "Painterly",
+  "familyZh": "绘画质感",
+  "folder": "071-pointillist-afternoon"
+ },
+ {
+  "id": 72,
+  "name": "Vector Arcade 1980",
+  "nameZh": "1980年代矢量街机",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "folder": "072-vector-arcade-1980"
+ },
+ {
+  "id": 73,
+  "name": "Patent Drawing",
+  "nameZh": "专利图纸",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "folder": "073-patent-drawing"
+ },
+ {
+  "id": 74,
+  "name": "Bauhaus Poster",
+  "nameZh": "包豪斯海报",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "folder": "074-bauhaus-poster"
+ },
+ {
+  "id": 75,
+  "name": "Bitmap Paint Doodle",
+  "nameZh": "位图画板涂鸦",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "folder": "075-bitmap-paint-doodle"
+ },
+ {
+  "id": 76,
+  "name": "Nail & Thread String Art",
+  "nameZh": "钉线绕线艺术",
+  "family": "Generative & Type",
+  "familyZh": "生成艺术与字体",
+  "folder": "076-nail-thread-string-art"
+ },
+ {
+  "id": 77,
+  "name": "Ridgeline",
+  "nameZh": "山脊线图",
+  "family": "Data & Information",
+  "familyZh": "数据与信息",
+  "folder": "077-ridgeline"
+ },
+ {
+  "id": 78,
+  "name": "Sketchbook Graphite",
+  "nameZh": "石墨素描本",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "folder": "078-sketchbook-graphite"
+ },
+ {
+  "id": 79,
+  "name": "Teletext Page",
+  "nameZh": "图文电视页",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "folder": "079-teletext-page"
+ },
+ {
+  "id": 80,
+  "name": "Silkscreen Grid",
+  "nameZh": "丝网印刷网格",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "folder": "080-silkscreen-grid"
+ },
+ {
+  "id": 81,
+  "name": "Guilloché Security Print",
+  "nameZh": "玑镂防伪纹样",
+  "family": "Generative & Type",
+  "familyZh": "生成艺术与字体",
+  "folder": "081-guilloch-security-print"
+ },
+ {
+  "id": 82,
+  "name": "ASCII Demoscene",
+  "nameZh": "ASCII 字符演示艺术",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "folder": "082-ascii-demoscene"
+ },
+ {
+  "id": 83,
+  "name": "International Typographic Style",
+  "nameZh": "国际主义字体设计",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "folder": "083-international-typographic-style"
+ },
+ {
+  "id": 84,
+  "name": "Flow Field",
+  "nameZh": "流场",
+  "family": "Data & Information",
+  "familyZh": "数据与信息",
+  "folder": "084-flow-field"
+ },
+ {
+  "id": 85,
+  "name": "MacPaint 1984",
+  "nameZh": "MacPaint 1984 画板",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "folder": "085-macpaint-1984"
+ },
+ {
+  "id": 86,
+  "name": "Multi-scale Truchet",
+  "nameZh": "多尺度特鲁歇拼砖",
+  "family": "Generative & Type",
+  "familyZh": "生成艺术与字体",
+  "folder": "086-multi-scale-truchet"
+ }
+]

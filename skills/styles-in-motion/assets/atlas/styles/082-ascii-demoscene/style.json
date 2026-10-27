@@ -1,0 +1,13 @@
+{
+  "id": 82,
+  "name": "ASCII Demoscene",
+  "nameZh": "ASCII 字符演示艺术",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "description": "A ray-marched 3D torus rasterised into a strict monospace character grid via a luminance ramp, colour-coded like a 90s demoscene intro: box-drawn title panel, plasma backdrop, copper bars and a sine scroller.",
+  "motionNotes": "Motion: Like a demo intro booting: plasma thickens in, the spinning torus is rastered into characters top-to-bottom behind a bright scan row, the block title and nfo panel print, copper bars open and a rainbow sine-scroller glides in from the right.",
+  "explainerNotes": "Explainer: One long ASCII document that the terminal scrolls through row by row: figlet block-letter question, labelled ASCII cat/dog cards stepping along a box-drawing arrow into a MODEL box, a reverse-video GUESS/CHECK/ADJUST loop with a red error path, and block-character bar charts with figlet counters.",
+  "code": "code.js",
+  "registeredAs": "ascii-render",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

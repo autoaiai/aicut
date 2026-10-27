@@ -1,0 +1,13 @@
+{
+  "id": 54,
+  "name": "Ebru Paper Marbling",
+  "nameZh": "土耳其水拓画",
+  "family": "Generative & Type",
+  "familyZh": "生成艺术与字体",
+  "description": "Turkish ebru on laid paper: a battal stone ground of floated pigments raked into gel-git chevrons and combed, then suminagashi ring-drops pulled by a stylus into tulips — built with the exact drop and tine transforms.",
+  "motionNotes": "Motion: Colour drops rain onto the size and bloom, shoving earlier drops into veins; the rake drags the stone into gel-git flames; ring after ring is dropped at one point; then the stylus pulls the rings into a tulip, and a wet sheen glides over the finished bath.",
+  "explainerNotes": "Explainer: The bath is the model: examples land as colour drops, a new picture is a red probe drop that the flow drags toward its guess, the error is a stylus counter-stroke and the adjustment a comb pass that puts the pattern in order; scenes change by lifting the printed sheet off the bath, labels are bookbinder paper labels and arrows are inked stylus strokes.",
+  "code": "code.js",
+  "registeredAs": "paper-marbling",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

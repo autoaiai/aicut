@@ -1,0 +1,13 @@
+{
+  "id": 56,
+  "name": "Soft 3D Clay",
+  "nameZh": "柔软3D黏土",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "description": "Dribbble-style “puffy” 3D icons: pastel matte-clay objects with chunky rounded extrusions, soft core shadows, bright bounce-light rims, glossy specular blobs and blurry contact shadows on a seamless pastel sweep.",
+  "motionNotes": "Motion: Clay icons drop in one by one on springy squash-and-stretch with their contact shadows growing beneath them, the bulb flickers on, then the cursor flies in and taps the bubble while everything bobs at different depths.",
+  "explainerNotes": "Explainer: The camera dollies across one wide pastel set with parallax depth-of-field (cards → clay chip with weight sliders → answer bubble → clay bar chart → pull back), arrows are puffy clay tubes with blobby heads, labels are squishy pills that spring onto objects, and numbers count inside butter-yellow clay badges.",
+  "code": "code.js",
+  "registeredAs": "soft-3d",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}
