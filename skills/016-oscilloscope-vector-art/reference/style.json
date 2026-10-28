@@ -1,0 +1,13 @@
+{
+  "id": 16,
+  "name": "Oscilloscope Vector Art",
+  "nameZh": "示波器矢量艺术",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "description": "Oscilloscope-music XY art on an analogue lab scope: one P31 green beam draws everything, bright where it slows at turns and dim on fast retrace lines, with bloom and halation behind an internal 8x10 graticule, framed by a moulded CRT bezel and a knobbed instrument front panel.",
+  "motionNotes": "Motion: Power-on: the dot blooms, the timebase pulls it into a sine sweep, the X-Y button snaps in and the waveform folds into a circle that winds itself into a spinning spiral-sphere while the beam writes the vector text.",
+  "explainerNotes": "Explainer: Everything is drawn by one scope beam: transitions are the instrument's own (picture collapses to a dot and re-expands, X gain to zero then the timebase sweep, Y gain to zero back to X-Y), arrows and Hershey-style labels are beam strokes, counters are redrawn vector numerals, and the wrong guess shudders amber while the 97% flares the bloom.",
+  "code": "code.js",
+  "registeredAs": "oscilloscope",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

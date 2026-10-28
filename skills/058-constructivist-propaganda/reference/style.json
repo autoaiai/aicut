@@ -1,0 +1,13 @@
+{
+  "id": 58,
+  "name": "Constructivist Propaganda",
+  "nameZh": "构成主义宣传画",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "description": "A 1920s Rodchenko / El Lissitzky agitprop poster: red, black and cream only, a halftone photomontage robot bellowing through a megaphone, beams radiating from its voice, a red disc and hard diagonal bars, and heavy condensed lettering set on the slant — litho ink mottle on cheap paper.",
+  "motionNotes": "Motion: Agitprop staccato: the red disc rolls in, the halftone robot slides up the diagonal, beams punch out of the megaphone two frames at a time, the slogan bars shoot across and the words slam down on the beat; in the hold the beam fan pulses with each shout.",
+  "explainerNotes": "Explainer: Agitprop sequence: Lissitzky's red wedge drives across the sheet between scenes, slogans and labels slam onto slanted bars on twos, arrows are heavy bars with wedge heads, the counter is stencil-tall Anton, and the key moments get a stamped red cross or a burst of beams.",
+  "code": "code.js",
+  "registeredAs": "constructivist",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 73,
+  "name": "Patent Drawing",
+  "nameZh": "专利图纸",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "description": "A 1930s US patent sheet: ruling-pen black ink line art with shade lines, parallel-line and stipple shading, section hatching, reference numerals on curved leaders, typeset header and inked signatures on yellowed paper.",
+  "motionNotes": "Motion: Lines are inked one stroke at a time like a draughtsman at work — outlines first, then hatching, then numerals — while the FIG. 3 gear train slowly turns.",
+  "explainerNotes": "Explainer: The camera travels along one long patent sheet as FIG. 4–6 are inked stroke by stroke: ruled arrows and leader lines tie labels to parts, odometer drums count the examples and the accuracy, and an examiner's red pencil rings the wrong guess and the 97%.",
+  "code": "code.js",
+  "registeredAs": "patent-drawing",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

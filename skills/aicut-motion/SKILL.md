@@ -19,8 +19,8 @@ The gap is rarely taste. It is behaviour:
 - build one shared system, so everything stays consistent;
 - look at the output and fix it.
 
-Read `npx -y aicut@latest` once before the first film: it is the format and the tools, and it is authoritative. This
-skill is how to decide what to draw.
+Read `npx -y @autoaiai/aicut@latest` once before the first film: it is the format and the tools, and it is
+authoritative. This skill is how to decide what to draw.
 
 ## Priority order
 
@@ -126,7 +126,7 @@ moving** — a palette, a material, a set of gestures. What the film is about co
 nowhere else.
 
 - `references/style-index.json` — all 86, one row each: `id`, `name`, `nameZh`, `family`, `familyZh`, `folder`.
-- `assets/atlas/styles/<folder>/poster.jpg` — the style's own cover, 800×450, the picture the person sees.
+- `assets/atlas/styles/<folder>/poster.webp` — the style's own cover, 800×450, the picture the person sees.
 - `assets/atlas/styles/<folder>/style.json` — `description` (the look), `motionNotes` (how it moves),
   `explainerNotes` (how it explains), `code` (the file below).
 - `assets/atlas/styles/<folder>/code.js` — the reference animation, `draw(ctx, W, H, t)`: a pure function of time, the
@@ -137,6 +137,11 @@ nowhere else.
 - `scripts/atlas-viewer.html` — open it in any browser: the 86 styles play, scrubbable, each with its own notes beside
   it. No build, no AICUT, no network — the three pieces the film needs (the harness, one `code.js`, a `t`). Use it to
   look at a style before recommending it, and to see where a beat starts before reading the code for it.
+
+**Each look is also a skill of its own** — `skills/<folder>/`, one per style: its `poster.webp` as the target, its
+`reference/code.js`, and a `SKILL.md` written for that one look (palette read out of the source, the colours sampled
+from the cover, what it never does). Read this archive when a direction has to be chosen; read one of those when the
+direction is already decided and must be matched exactly.
 
 Nothing here is an instruction to run. Check what a file does before reusing any of it. The viewer is the one exception:
 it only plays files that are already here.
@@ -267,7 +272,7 @@ my-film/
 - **Fonts.** System stacks, or a font in `assets/` with `document.fonts.load('700 64px …')` awaited in `ready`.
   Never a font that may not arrive.
 - **Sound.** A music or ambience `<audio>` clip, plus one clip per hit on its own track, all in `film.html`. Generated
-  music and effects come from `npx -y aicut@latest get`, once the person has connected a service.
+  music and effects come from `npx -y @autoaiai/aicut@latest get`, once the person has connected a service.
 - **Completeness.** No TODOs. If space runs out, stop at the end of a file with `// CONTINUE FROM <path>`.
 
 ## Stage 6 — the jury
@@ -293,9 +298,9 @@ Fix everything below 8, worst first, up to three rounds.
 **How to look:**
 
 ```sh
-npx -y aicut@latest look            # the whole film: contact sheet, sound, loudness, same-t check
-npx -y aicut@latest look 4.5        # one frame at full size
-npx -y aicut@latest look 3-6        # a stretch, densely
+npx -y @autoaiai/aicut@latest look            # the whole film: contact sheet, sound, loudness, same-t check
+npx -y @autoaiai/aicut@latest look 4.5        # one frame at full size
+npx -y @autoaiai/aicut@latest look 3-6        # a stretch, densely
 TIMES are worth naming: the first frame, each scene's first full frame, the loop seam
 ```
 
@@ -314,7 +319,7 @@ Reply in this order:
    kept across materials`; `format · W×H · duration · S##`. Any X row done by overlay, crossfade or whole-frame
    scaling is a failure — fix it before replying.
 5. **Jury**: five scores, and the three things you are least sure of.
-6. **运行方法**: `npx -y aicut@latest open <folder>` and open the address it prints; `look` to check; `render` for
+6. **运行方法**: `npx -y @autoaiai/aicut@latest open <folder>` and open the address it prints; `look` to check; `render` for
    the MP4 when the person wants the file.
 
 **Follow-ups.** 继续 → only the remaining files. 评审修复 → run stage 6 on new stills, then output only the changed

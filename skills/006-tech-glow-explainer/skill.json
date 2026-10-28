@@ -1,0 +1,18 @@
+{
+  "number": 6,
+  "name": "Tech Glow Explainer",
+  "nameZh": "科技辉光讲解",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "cover": "poster.webp",
+  "palette": [
+    "#3fe3ff",
+    "#3d7bff",
+    "#8f5bff",
+    "#e04dff",
+    "#4b3bff",
+    "#ff4f7a",
+    "#3cf0b4",
+    "#eef2ff"
+  ]
+}

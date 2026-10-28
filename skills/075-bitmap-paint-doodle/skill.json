@@ -1,0 +1,18 @@
+{
+  "number": 75,
+  "name": "Bitmap Paint Doodle",
+  "nameZh": "位图画板涂鸦",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "cover": "poster.webp",
+  "palette": [
+    "#000000",
+    "#ffff00",
+    "#008000",
+    "#00ff00",
+    "#ff0000",
+    "#ff8040",
+    "#804000",
+    "#ff80c0"
+  ]
+}

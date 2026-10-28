@@ -1,0 +1,13 @@
+{
+  "number": 31,
+  "name": "Voxel Diorama",
+  "nameZh": "体素微缩景观",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "cover": "poster.webp",
+  "palette": [
+    "#6fb04a",
+    "#86c35a",
+    "#5f9f42"
+  ]
+}

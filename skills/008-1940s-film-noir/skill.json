@@ -1,0 +1,12 @@
+{
+  "number": 8,
+  "name": "1940s Film Noir",
+  "nameZh": "1940年代黑色电影",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "cover": "poster.webp",
+  "palette": [
+    "#000",
+    "#fff"
+  ]
+}

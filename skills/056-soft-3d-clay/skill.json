@@ -1,0 +1,18 @@
+{
+  "number": 56,
+  "name": "Soft 3D Clay",
+  "nameZh": "柔软3D黏土",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "cover": "poster.webp",
+  "palette": [
+    "#e6e0ff",
+    "#b9abff",
+    "#9a88f5",
+    "#8f7cf0",
+    "#5d48c2",
+    "#fff0e6",
+    "#ffcfb3",
+    "#ffad8a"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": 44,
+  "name": "Felt & Patchwork",
+  "nameZh": "毛毡与拼布",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "description": "A cosy patchwork quilt of cotton prints with puffy quilted squares, topped with fuzzy felt appliqué edged in blanket stitch, button \"nodes\" sewn on and joined by running-stitch thread, plus an embroidered label.",
+  "motionNotes": "Motion: Thread draws itself stitch by stitch between the buttons, felt pieces drop on with a soft squash, and the quilt breathes with a slow puff of the padding.",
+  "explainerNotes": "Explainer: The camera pans along one long patchwork quilt; felt pieces drop on with a lifted shadow and soft squash, arrows and emphasis rings are thread sewn on stitch by stitch, labels are woven tags stitched onto what they name, the counter is cut felt digits swapped as it climbs, and the model's weights are buttons whose thread-X turns when it adjusts.",
+  "code": "code.js",
+  "registeredAs": "felt-quilt",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

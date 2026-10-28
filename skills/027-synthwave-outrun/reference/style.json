@@ -1,0 +1,13 @@
+{
+  "id": 27,
+  "name": "Synthwave Outrun",
+  "nameZh": "合成波疾驰",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "description": "80s outrun poster: neon grid highway to a striped sunset, wireframe vector mountains, chrome-beveled italic title with a horizon reflection and a hot-pink neon script, all bathed in bloom.",
+  "motionNotes": "Motion: Stars blink on, the horizon line and grid race toward camera, the striped sun rises and wireframe mountains grow, the chrome title slams in with a flash, the script tube flickers on and glints sweep the chrome.",
+  "explainerNotes": "Explainer: A night drive explains it: labelled example cards ride the neon highway into a wireframe AI core, a dashboard HUD holds a rolling odometer counter, synth-knob weights and GUESS/CHECK/ADJUST neon tubes; the camera tilts up into the sky for a glowing accuracy chart and back down for a chrome payoff.",
+  "code": "code.js",
+  "registeredAs": "synthwave",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

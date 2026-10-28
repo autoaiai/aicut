@@ -5,7 +5,7 @@ how each thing changes. Read it in four layers — cover, words, code, timing �
 
 ## 1. The cover
 
-Open `assets/atlas/styles/<folder>/poster.jpg` and look at it. Write down, in your own words: the palette (three to
+Open `assets/atlas/styles/<folder>/poster.webp` and look at it. Write down, in your own words: the palette (three to
 five real colours, not “warm”), the composition (where the eye lands, what is behind what), the type (is the title
 drawn, set, lettered, cut out?), the material (paper, glass, ink, pixels), the line (edge, weight, wobble), and the
 light (flat, raking, glowing). These are the style's invariants: the film keeps them whatever its subject.

@@ -1,0 +1,14 @@
+{
+  "number": 59,
+  "name": "Pocket Monochrome",
+  "nameZh": "掌机单色像素",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "cover": "poster.webp",
+  "palette": [
+    "#a4ba30",
+    "#7f9c22",
+    "#3e6a2c",
+    "#14381a"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "number": 67,
+  "name": "Memphis Group",
+  "nameZh": "孟菲斯设计",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "cover": "poster.webp",
+  "palette": [
+    "#f9c3d2",
+    "#a9e5d0",
+    "#cbb8f4",
+    "#fff0a6",
+    "#fff8ec",
+    "#ff4f9b",
+    "#2b62ff",
+    "#ffd02e"
+  ]
+}

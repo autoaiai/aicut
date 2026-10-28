@@ -1,0 +1,13 @@
+{
+  "id": 70,
+  "name": "Topographic Survey",
+  "nameZh": "地形测绘",
+  "family": "Data & Information",
+  "familyZh": "数据与信息",
+  "description": "A vintage survey quadrangle of a \"loss landscape\": brown contour lines with heavier labelled index contours, soft hillshade and woodland tint, a water-lined lake, a red dashed switchback trail and a full printed collar with scale bar and north arrow.",
+  "motionNotes": "Motion: Printed plate by plate: the black frame and collar, then the grey hillshade, the green woodland sliding into register, the blue lake, then brown contours rising from the shore like a tide; streams trace downhill, names land, and the red trail walks itself down the switchbacks while the camera eases in.",
+  "explainerNotes": "Explainer: The loss landscape is literally the map: survey points (examples) raise the terrain, a red hiker guesses, checks the slope and steps down a dashed switchback trail while the camera pans along it, and accuracy is lettered in a map cartouche like an elevation figure.",
+  "code": "code.js",
+  "registeredAs": "topographic",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

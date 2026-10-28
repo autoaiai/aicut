@@ -1,0 +1,13 @@
+{
+  "id": 60,
+  "name": "Botanical Plate",
+  "nameZh": "植物学图谱",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "description": "A hand-coloured copperplate natural-history plate: swelling engraved hatching that follows every form, loose transparent watercolour tints laid over the print, numbered figures, Latin italic captions and foxed rag paper with a pressed plate mark.",
+  "motionNotes": "Motion: The circuit-flower sways on its stem while the copper beetle flexes its antennae; tints bleed in a beat after the engraved lines appear.",
+  "explainerNotes": "Explainer: Three plates from a naturalist's folio, each pulled fresh under the press roller: engraved specimens of cats and dogs feed the circuit-lily \"model\", a life-cycle plate with fletched engraved arrows shows Guess, Check and Adjust, and a growth-stage plate counts accuracy in an engraved cartouche, with the colourist's red wash ringing the key moments.",
+  "code": "code.js",
+  "registeredAs": "botanical-plate",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

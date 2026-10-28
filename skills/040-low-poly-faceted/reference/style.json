@@ -1,0 +1,13 @@
+{
+  "id": 40,
+  "name": "Low-Poly Faceted",
+  "nameZh": "低多边形切面",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "description": "Faceted low-poly 3D: a triangulated noise terrain with flat per-face Lambert shading, atmospheric depth fog, cone trees and a faceted rocket lifting off into a dawn gradient sky.",
+  "motionNotes": "Motion: Terrain facets flip into place from the camera out to the horizon, trees and the launch pad pop up, then the rocket ignites and lifts off on a faceted flame and smoke column while the camera dollies forward.",
+  "explainerNotes": "Explainer: A continuous camera flight through one faceted valley (overview → river of labelled example cards → floating crystal model whose facets realign → pillar chart on a plateau → pull back), with angular two-tone ribbon arrows, cut-corner tags pinned to objects and Space Grotesk counters.",
+  "code": "code.js",
+  "registeredAs": "low-poly",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

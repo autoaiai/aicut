@@ -1,0 +1,13 @@
+{
+  "id": 12,
+  "name": "Bioluminescent Deep Sea",
+  "nameZh": "深海生物荧光",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "description": "The midnight zone: near-black water with parallax marine snow, and nothing lit but living light — a jellyfish whose nerve net glows like a neural network, a siphonophore chain, a rainbow-rippling comb jelly and an anglerfish lure. Additive cyan, teal and electric-blue glow with magenta and amber accents; type is bioluminescent.",
+  "motionNotes": "Motion: The camera sinks (marine snow streams upward) as animals switch on one by one: bell rims pulse, nerve-net nodes flicker alight, the siphonophore lights segment by segment, the lure blinks on, and the words form out of gathering plankton.",
+  "explainerNotes": "Explainer: A descent through the midnight zone: the question forms from gathering plankton, cat and dog swarms ride a glowing current into a jellyfish model whose nerve net is its weights, the error ripples back through the net in magenta, accuracy climbs a siphonophore chain to a plankton bloom-burst, and transitions are a descent, a sweeping plankton bloom and an anglerfish lure lighting new water.",
+  "code": "code.js",
+  "registeredAs": "deep-sea",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

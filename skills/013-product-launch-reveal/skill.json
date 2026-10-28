@@ -1,0 +1,13 @@
+{
+  "number": 13,
+  "name": "Product Launch Reveal",
+  "nameZh": "产品发布揭幕",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "cover": "poster.webp",
+  "palette": [
+    "#b69cff",
+    "#e879f9",
+    "#ff9a4d"
+  ]
+}

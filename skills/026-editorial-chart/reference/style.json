@@ -1,0 +1,13 @@
+{
+  "id": 26,
+  "name": "Editorial Chart",
+  "nameZh": "报刊数据图表",
+  "family": "Data & Information",
+  "familyZh": "数据与信息",
+  "description": "A prestige-newspaper data graphic on FT salmon: serif headline and dek, hairline grid, one claret highlight series against quiet greys, direct labels and hand-annotated callouts, small-caps source line.",
+  "motionNotes": "Motion: Headline sets, gridlines rule across, grey context lines settle, then the claret line draws left to right with its wash filling behind it and handwritten notes inking in as the line reaches them; a slow push and a soft pulse on the end point hold the shot.",
+  "explainerNotes": "Explainer: Told as a scrolling newspaper story: the page scrolls panel to panel under a sticky serif header, hand-drawn Caveat arrows and rings carry the cause and emphasis, a waffle chart and set numerals count the data, and the accuracy line draws itself like the still.",
+  "code": "code.js",
+  "registeredAs": "editorial-chart",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

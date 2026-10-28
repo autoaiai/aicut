@@ -1,0 +1,13 @@
+{
+  "id": 31,
+  "name": "Voxel Diorama",
+  "nameZh": "体素微缩景观",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "description": "MagicaVoxel-style diorama: a floating voxel island with a waving robot, chunky trees and a pond — three-tone cube faces, per-vertex ambient occlusion in the creases, ray-marched soft shadows and a warm toy palette.",
+  "motionNotes": "Motion: Voxels rain down and stack layer by layer from the island’s rocky underside up to the robot’s antenna while the camera orbits; the robot’s eyes flicker on, it starts waving, and the pixel title drops in block by block.",
+  "explainerNotes": "Explainer: One long voxel island the camera trucks along while each zone is rebuilt from falling voxels; arrows are chains of little cubes, cards and the ✗/✓ verdict are real voxel pixel-art, the robot’s chest equaliser re-levels as its weights adjust, and numbers tick in Silkscreen on extruded block tags.",
+  "code": "code.js",
+  "registeredAs": "voxel",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

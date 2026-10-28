@@ -15,19 +15,23 @@ agent that knows the web already knows how to make one.
 `aicut` prints its own manual: the format and the commands, about a thousand words, always the current version.
 
 ```sh
-npx -y aicut@latest
+npx -y @autoaiai/aicut@latest
 ```
 
-Run it before writing a film; `npx -y aicut@latest <command> --help` has one command's options. That manual is
-authoritative — what follows is the workflow around it.
+Run it before writing a film; `npx -y @autoaiai/aicut@latest <command> --help` has one command's options. That manual
+is authoritative — what follows is the workflow around it.
 
 ## The loop
 
-1. **Open.** `npx -y aicut@latest open <folder>` makes the folder a film (1920×1080, no tracks) and prints Studio's
-   address. Open that address in a browser you have: the person watches every change land there, and edits too.
+1. **Open.** `npx -y @autoaiai/aicut@latest open <folder>` makes the folder a film (1920×1080, no tracks), opens it
+   in the person's browser, and prints Studio's address. That page is the one the person watches every change land
+   on and edits too: leave it alone, and open the address only if you have a browser of your own
+   (`AICUT_NO_BROWSER=1` opens none — the address is yours then). A machine without the AICUT app installed is not
+   broken — the browser is the whole editor; only when the person asks for the desktop app, offer
+   `npx -y @autoaiai/aicut@latest app --download` and run it after they say yes.
 2. **Write.** `film.html` for the cut, one page per shot.
-3. **Check.** `npx -y aicut@latest look` draws a contact sheet of the whole film, its sound and loudness, and checks
-   that the same `t` draws the same picture. `look 4.5` is one frame at full size, `look 3-6` a stretch,
+3. **Check.** `npx -y @autoaiai/aicut@latest look` draws a contact sheet of the whole film, its sound and loudness, and
+   checks that the same `t` draws the same picture. `look 4.5` is one frame at full size, `look 3-6` a stretch,
    `look assets/a.mp4` a media file. Look at the PNGs it writes; do not judge from the code.
 4. **Fix, repeat.** `render` only when the person asks for the file — they export from Studio themselves.
 
@@ -54,7 +58,7 @@ replace each shot in Studio.
 ## What is where
 
 - `references/film-format.md` — `film.html` and page rules on one page, when you want them in front of you.
-- `references/commands.md` — the four commands, their options, where output goes, what an exit code means.
+- `references/commands.md` — the five commands, their options, where output goes, what an exit code means.
 - `references/recipes.md` — snippets to copy: a title card, a canvas shot, picture-in-picture with voice-over and
   subtitles, a music bed with a hit.
 - `references/troubleshooting.md` — a blank frame, a picture that changes on its own, a missing encoder.

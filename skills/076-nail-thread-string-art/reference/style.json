@@ -1,0 +1,13 @@
+{
+  "id": 76,
+  "name": "Nail & Thread String Art",
+  "nameZh": "钉线绕线艺术",
+  "family": "Generative & Type",
+  "familyZh": "生成艺术与字体",
+  "description": "Taut cotton threads strung between brass nails on a stained walnut board; every curve is an envelope of straight chords, with thread translucency, sheen and cast shadows, plus pyrography lettering.",
+  "motionNotes": "Motion: Nails are tapped in around the outline, then thread is wound chord by chord so the glowing envelopes emerge, the filament and base are laced, the rays snap taut, and the title is burned in with a travelling ember while the camera slowly pushes in.",
+  "explainerNotes": "Explainer: The network is literally strung on the board — nails are neurons, a weight is how many wraps of thread a connection has — and learning is re-winding; the camera travels along one long walnut board between scenes, labels are kraft tags nailed on, arrows are threads with nail barbs, counters are nail-and-thread 7-segment digits, and emphasis is a red thread wound round a ring of nails.",
+  "code": "code.js",
+  "registeredAs": "string-art",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

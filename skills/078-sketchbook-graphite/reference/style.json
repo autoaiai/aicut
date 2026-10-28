@@ -1,0 +1,13 @@
+{
+  "id": 78,
+  "name": "Sketchbook Graphite",
+  "nameZh": "石墨素描本",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "description": "A graphite study in a spiral sketchbook: faint construction circles and axes under confident darker contours, directional hatching that breaks on the paper tooth, smudged tones, kneaded-eraser highlights and a margin note.",
+  "motionNotes": "Motion: Construction lines ghost in first, contours firm up over them, then hatching sweeps across the shadow side while the eraser lifts the highlight.",
+  "explainerNotes": "Explainer: A pencil works across a wide sketchbook spread (faint construction pass first, then a firm contour, crescent hatching for form) while the camera follows, then the page physically turns to a fresh sheet for the progress chart; numbers are pencilled and re-pencilled as they count.",
+  "code": "code.js",
+  "registeredAs": "sketchbook-pencil",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

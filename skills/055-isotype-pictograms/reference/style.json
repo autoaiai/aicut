@@ -1,0 +1,13 @@
+{
+  "id": 55,
+  "name": "ISOTYPE Pictograms",
+  "nameZh": "ISOTYPE 图形符号",
+  "family": "Data & Information",
+  "familyZh": "数据与信息",
+  "description": "Vienna Method pictorial statistics: rows of identical flat pictograms where each symbol is a fixed quantity, partial symbols for remainders, three muted litho inks on a strict grid with geometric sans lettering.",
+  "motionNotes": "Motion: Title and key set first, the year column drops in, then symbols are stamped out row by row from the centre in stepped, rubber-stamp timing, the 2025 row of machines racing ahead; the litho paper breathes in the hold.",
+  "explainerNotes": "Explainer: A Vienna-Method picture-statistic told across one long chart sheet the camera pans along: symbols are stamped in stepped 12 fps timing, flat Isotype arrows show flow, numerals are stamped and re-stamped, and accuracy is counted in rows of tick symbols with partial symbols for fractions.",
+  "code": "code.js",
+  "registeredAs": "isotype",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

@@ -1,0 +1,18 @@
+{
+  "number": 9,
+  "name": "Manim-Style Math",
+  "nameZh": "Manim 数学动画",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "cover": "poster.webp",
+  "palette": [
+    "#000000",
+    "#58c4dd",
+    "#236b8e",
+    "#5cd0b3",
+    "#ffff00",
+    "#f7d96f",
+    "#fc6255",
+    "#83c167"
+  ]
+}

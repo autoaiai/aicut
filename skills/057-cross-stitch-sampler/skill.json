@@ -1,0 +1,18 @@
+{
+  "number": 57,
+  "name": "Cross-Stitch Sampler",
+  "nameZh": "十字绣样本",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "cover": "poster.webp",
+  "palette": [
+    "#c43a46",
+    "#2e3760",
+    "#5fb3a9",
+    "#3f8c86",
+    "#f2c14e",
+    "#ef8a3c",
+    "#a8673c",
+    "#5e3a22"
+  ]
+}

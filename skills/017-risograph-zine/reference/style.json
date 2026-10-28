@@ -1,0 +1,13 @@
+{
+  "id": 17,
+  "name": "Risograph Zine",
+  "nameZh": "孔版印刷小志",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "description": "Three fluorescent spot inks (pink, medium blue, yellow) laid down as separate drum passes and multiplied on off-white stock — misregistered plates, grainy patchy solids, dotted tints and roller streaks.",
+  "motionNotes": "Motion: The sheet goes through the drum three times — yellow, then pink, then blue roll down the page and slide into misregistration — then the print boils at 8 fps while the rocket creeps upward and its flame flickers in the screen.",
+  "explainerNotes": "Explainer: Scenes change by re-registering the plates — yellow, pink and blue slide off and the next scene's plates slide in one drum pass at a time — with dotted blue flow arrows, pink error arrows and scribbled circles, and counters set in big two-plate zine type.",
+  "code": "code.js",
+  "registeredAs": "risograph",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

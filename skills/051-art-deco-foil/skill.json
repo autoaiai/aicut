@@ -1,0 +1,18 @@
+{
+  "number": 51,
+  "name": "Art Deco Foil",
+  "nameZh": "装饰艺术烫箔",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "cover": "poster.webp",
+  "palette": [
+    "#6b4a16",
+    "#c99a3e",
+    "#f6e2a0",
+    "#fff6d2",
+    "#d6a948",
+    "#7d5719",
+    "#b8863a",
+    "#f3d98c"
+  ]
+}

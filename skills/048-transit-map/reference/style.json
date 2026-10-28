@@ -1,0 +1,13 @@
+{
+  "id": 48,
+  "name": "Transit Map",
+  "nameZh": "公共交通线路图",
+  "family": "Data & Information",
+  "familyZh": "数据与信息",
+  "description": "A Beck-style metro diagram of an AI pipeline: fat coloured lines locked to 0/45/90 degrees with rounded bends, line-colour station ticks, black-ringed interchanges, a river and a boxed legend, all in clean sans lettering.",
+  "motionNotes": "Motion: Title and key settle, then each line draws out from its terminus in turn with stations ticking on and interchanges popping as the line passes; once the network is complete, small trains glide along every route.",
+  "explainerNotes": "Explainer: The lesson is a journey on the network: the camera rides along a Data Line into the Model interchange, round a Training Loop line (Guess, Check, Adjust stations) and out along an Accuracy Line, while an amber dot-matrix departure board counts examples and accuracy and finally flips to the takeaway.",
+  "code": "code.js",
+  "registeredAs": "transit-map",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

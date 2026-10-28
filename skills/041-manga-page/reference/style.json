@@ -1,0 +1,13 @@
+{
+  "id": 41,
+  "name": "Manga Page",
+  "nameZh": "漫画分镜页",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "description": "A black-and-white manga page: slanted panel gutters, brush-tapered ink, radiating focus lines, true halftone screentone gradients, katakana sound effects with white knock-out borders and hand-lettered speech balloons.",
+  "motionNotes": "Motion: Panels land one after another with a camera shake; focus lines \"boil\" every couple of frames and the ゴゴゴ letters tremble.",
+  "explainerNotes": "Explainer: A three-page manga: panels slam in on twos, page turns carry the story, bold outlined arrows and katakana SFX (ドドド, ブー, カチカチ, ピンポーン, グングン) mark cause and effect, numbers count in narration boxes, and focus-line bursts hit the key beats.",
+  "code": "code.js",
+  "registeredAs": "manga-panel",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

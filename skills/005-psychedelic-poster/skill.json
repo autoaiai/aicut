@@ -1,0 +1,18 @@
+{
+  "number": 5,
+  "name": "Psychedelic Poster",
+  "nameZh": "迷幻海报",
+  "family": "Cosmic & Psychedelic",
+  "familyZh": "宇宙与迷幻",
+  "cover": "poster.webp",
+  "palette": [
+    "#ff1a8c",
+    "#a4f01a",
+    "#ff6a00",
+    "#1b3dff",
+    "#6d17c8",
+    "#ffe11a",
+    "#22072b",
+    "#fbefd2"
+  ]
+}

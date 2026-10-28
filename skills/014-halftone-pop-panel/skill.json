@@ -1,0 +1,15 @@
+{
+  "number": 14,
+  "name": "Halftone Pop Panel",
+  "nameZh": "半色调波普",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "cover": "poster.webp",
+  "palette": [
+    "#e2231a",
+    "#1f5fbf",
+    "#ffd51f",
+    "#141210",
+    "#fbf6ea"
+  ]
+}

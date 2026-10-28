@@ -1,7 +1,7 @@
 # The format, on one page
 
-The summary below is for having the rules in front of you. When it disagrees with `npx -y aicut@latest` (the manual)
-or `packages/AiCut/SPEC.md` (the protocol, version 0.1), those are right.
+The summary below is for having the rules in front of you. When it disagrees with `npx -y @autoaiai/aicut@latest` (the
+manual) or `packages/AiCut/SPEC.md` (the protocol, version 0.1), those are right.
 
 ## The project
 

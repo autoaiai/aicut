@@ -1,0 +1,13 @@
+{
+  "id": 35,
+  "name": "Punk Zine Collage",
+  "nameZh": "朋克拼贴小志",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "description": "A photocopied cut-and-paste zine spread: torn halftone scraps, ransom-note letters cut from mismatched magazines, masking tape and staples, crushed to high-contrast black toner with one fluoro-pink spot ink overprinted off-register.",
+  "motionNotes": "Motion: Scraps slam onto the page one per beat with a copier-flash flicker, ransom letters jitter in stop-motion, toner noise boils every frame.",
+  "explainerNotes": "Explainer: Shot on 8 fps steps, each beat is a new photocopied sheet slapped down over the last (copier flash on impact); arrows are marker scrawls, labels are typed strips and ransom letters pasted onto the thing they name, the counter is re-cut from magazine letters every time it ticks, and the wrong guess gets slashed with the pink spot ink.",
+  "code": "code.js",
+  "registeredAs": "collage-zine",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

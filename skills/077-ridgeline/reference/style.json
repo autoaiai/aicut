@@ -1,0 +1,13 @@
+{
+  "id": 77,
+  "name": "Ridgeline",
+  "nameZh": "山脊线图",
+  "family": "Data & Information",
+  "familyZh": "数据与信息",
+  "description": "Sixty stacked traces of noisy signal, each filled black so it occludes the one behind, drawn as thin white lines in a perfectly centred block with a tiny typographic caption.",
+  "motionNotes": "Motion: Traces are plotted one after another from the top, each swept left to right like a pen recorder and occluding the ones behind; once the stack is complete the peaks ripple like a live signal and the caption types in.",
+  "explainerNotes": "Explainer: Each white trace is one training round: a recorder tape feeds labelled pulses into the empty stack, three magnified traces act out guess / check / adjust (the peak lands on \"dog\", a dashed target shows \"cat\", the peak slides over), then the camera pulls back and sixty rounds plot themselves as the noisy peaks align into one clean ridge, captioned in Space Mono.",
+  "code": "code.js",
+  "registeredAs": "ridgeline",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

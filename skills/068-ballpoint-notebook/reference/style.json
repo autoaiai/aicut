@@ -1,0 +1,13 @@
+{
+  "id": 68,
+  "name": "Ballpoint Notebook",
+  "nameZh": "圆珠笔笔记",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "description": "A blue Bic doodle in the back of a college-ruled notebook: dense crosshatching for darks, pressure-varied lines with ink blobs where strokes start, bubble lettering with a hatched drop shadow and compulsive margin doodles.",
+  "motionNotes": "Motion: Lines scratch on stroke by stroke, then layers of crosshatching build up the shadows pass by pass, while the margin doodles get traced over and over.",
+  "explainerNotes": "Explainer: Doodled down one long college-ruled page: the pen draws while the camera scrolls along and then down the page, headings are bubble letters with crosshatched shadows, boxes get hatched drop-shadows, a red pen marks the wrong guess, and counters are re-inked in bubble numerals.",
+  "code": "code.js",
+  "registeredAs": "ballpoint-notebook",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

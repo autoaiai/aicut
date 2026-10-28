@@ -1,0 +1,13 @@
+{
+  "id": 53,
+  "name": "Vaporwave",
+  "nameZh": "蒸汽波",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "description": "Pastel-neon dreamscape: sliced sunset sun, glowing grid floor, a glitching marble bust on a checkerboard plinth, palm silhouettes, katakana, and a chewed-up VHS tape finish.",
+  "motionNotes": "Motion: Tape starts on a blue VCR screen and rolls into lock, the striped sun rises, palms slide in, the bust glitches into existence slice by slice, katakana stamps on with chroma split and a tracking band crawls down.",
+  "explainerNotes": "Explainer: Told on a worn VHS tape: scenes change with a tape cut (VCR blue screen, fast-forward, vertical roll), the header lives on as the VCR on-screen menu, the counter is tape-counter digits, labelled polaroids slide along the neon floor into the marble-bust \"model\", a pastel guess.exe pop-up does the guessing and the chart is drawn in neon across the sky.",
+  "code": "code.js",
+  "registeredAs": "vaporwave",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

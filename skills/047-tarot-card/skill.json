@@ -1,0 +1,15 @@
+{
+  "number": 47,
+  "name": "Tarot Card",
+  "nameZh": "塔罗牌",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "cover": "poster.webp",
+  "palette": [
+    "#2c3350",
+    "#353a58",
+    "#41405f",
+    "#514765",
+    "#62506a"
+  ]
+}

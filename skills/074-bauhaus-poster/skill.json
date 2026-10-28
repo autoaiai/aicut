@@ -1,0 +1,15 @@
+{
+  "number": 74,
+  "name": "Bauhaus Poster",
+  "nameZh": "包豪斯海报",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "cover": "poster.webp",
+  "palette": [
+    "#ece2c9",
+    "#cf3a2a",
+    "#efb526",
+    "#1f4f9b",
+    "#1c1a18"
+  ]
+}

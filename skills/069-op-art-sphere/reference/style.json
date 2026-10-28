@@ -1,0 +1,13 @@
+{
+  "id": 69,
+  "name": "Op Art Sphere",
+  "nameZh": "欧普艺术球体",
+  "family": "Generative & Type",
+  "familyZh": "生成艺术与字体",
+  "description": "Hard-edged black/ivory checkerboard that swells into a lens-like sphere and ripples at the margins — Vasarely and Riley optical vibration, flat acrylic on primed canvas.",
+  "motionNotes": "Motion: A flat checkerboard first ripples into Riley folds, then swells into a lens-sphere that pops past its size and settles; red squares flip in cell by cell from the centre, then the field breathes and the folds drift.",
+  "explainerNotes": "Explainer: The model is the Vasarely lens: untrained its grid is melted noise, the error travels back as an optical ripple through the checkerboard and each adjustment combs the sphere toward perfect order; scenes change with a Riley fold that crushes the picture into crowded columns, labels are hard-edged black and red slabs, and the numbers are Archivo Black on ivory bands.",
+  "code": "code.js",
+  "registeredAs": "op-art",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

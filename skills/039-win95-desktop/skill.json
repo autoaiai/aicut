@@ -1,0 +1,18 @@
+{
+  "number": 39,
+  "name": "Win95 Desktop",
+  "nameZh": "Windows 95 桌面",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "cover": "poster.webp",
+  "palette": [
+    "#000",
+    "#ff9a30",
+    "#000",
+    "#ff6090",
+    "#000",
+    "#e8c890",
+    "#805020",
+    "#000"
+  ]
+}

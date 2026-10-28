@@ -1,0 +1,13 @@
+{
+  "number": 15,
+  "name": "Isometric Pastel",
+  "nameZh": "等距粉彩",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "cover": "poster.webp",
+  "palette": [
+    "#4a5488",
+    "#ff6b5b",
+    "#7fc8a8"
+  ]
+}

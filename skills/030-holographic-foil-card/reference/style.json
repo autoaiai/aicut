@@ -1,0 +1,13 @@
+{
+  "id": 30,
+  "name": "Holographic Foil Card",
+  "nameZh": "全息箔卡片",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "description": "A holo-rare trading card and die-cut sticker: cracked-ice foil whose rainbow diffraction shifts with angle and surface normals, embossed robot, sunburst and lettering catching specular glints, printed ink sitting on top, glitter flecks and rainbow spill on the desk.",
+  "motionNotes": "Motion: The card is dealt in and settles onto the desk, the sticker slaps down and holo confetti scatters, then the card slowly tilts toward the light so the rainbow band and specular glints sweep across the cracked-ice foil and embossed lettering.",
+  "explainerNotes": "Explainer: Told with holo trading cards on a desk: examples are dealt as CAT/DOG cards onto a pile, arrows and answers are die-cut foil stickers slapped down with an overshoot, the model card’s stat bars are its weights, scene changes are card flips to the stats side and back, and numbers are foil-embossed digits with a glint sweep for emphasis.",
+  "code": "code.js",
+  "registeredAs": "holographic-foil",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

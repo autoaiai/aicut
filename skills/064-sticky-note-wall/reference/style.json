@@ -1,0 +1,13 @@
+{
+  "id": 64,
+  "name": "Sticky-Note Wall",
+  "nameZh": "便利贴墙",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "description": "A brainstorming cork board: curling Post-its with adhesive bands and lifted-corner shadows, marker handwriting and doodles, a taped index card, push pins and red yarn connecting the ideas.",
+  "motionNotes": "Motion: Notes slap onto the board one by one with a tiny bounce, then red yarn unspools from pin to pin linking the ideas.",
+  "explainerNotes": "Explainer: A detective-board camera move across one big cork wall: notes slap in on cue, marker arrows and red yarn draw the flow, numbers are crossed out and rewritten by hand, and red marker circles the key moments.",
+  "code": "code.js",
+  "registeredAs": "sticky-notes",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

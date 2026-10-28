@@ -1,0 +1,18 @@
+{
+  "number": 7,
+  "name": "Papercraft Models",
+  "nameZh": "纸艺模型",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "cover": "poster.webp",
+  "palette": [
+    "#f5f0e4",
+    "#e8e0cf",
+    "#ece5d4",
+    "#2f6db3",
+    "#1f4f8a",
+    "#ee6b2d",
+    "#f4b630",
+    "#d83a2e"
+  ]
+}

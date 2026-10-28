@@ -1,0 +1,18 @@
+{
+  "number": 1,
+  "name": "Flat-Vector Science",
+  "nameZh": "扁平矢量科普",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "cover": "poster.webp",
+  "palette": [
+    "#090b2c",
+    "#18134f",
+    "#3a1a6c",
+    "#141846",
+    "#10164a",
+    "#a4fbef",
+    "#3ccbdc",
+    "#1d64b0"
+  ]
+}

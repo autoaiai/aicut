@@ -1,0 +1,18 @@
+{
+  "number": 80,
+  "name": "Silkscreen Grid",
+  "nameZh": "丝网印刷网格",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "cover": "poster.webp",
+  "palette": [
+    "#f2559c",
+    "#ffe14a",
+    "#22c3c8",
+    "#e8242b",
+    "#2b4fc3",
+    "#ff8a00",
+    "#ff7a1f",
+    "#9fdcff"
+  ]
+}

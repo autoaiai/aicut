@@ -1,0 +1,18 @@
+{
+  "number": 10,
+  "name": "Illuminated Manuscript",
+  "nameZh": "彩饰手抄本",
+  "family": "Illustration",
+  "familyZh": "插画",
+  "cover": "poster.webp",
+  "palette": [
+    "#2b1a0f",
+    "#100906",
+    "#c63b1c",
+    "#8c2210",
+    "#233f8f",
+    "#14265c",
+    "#4d6fc2",
+    "#b45a6c"
+  ]
+}

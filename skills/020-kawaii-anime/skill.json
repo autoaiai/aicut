@@ -1,0 +1,18 @@
+{
+  "number": 20,
+  "name": "Kawaii Anime",
+  "nameZh": "可爱动漫",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "cover": "poster.webp",
+  "palette": [
+    "#5a3659",
+    "#3b2342",
+    "#ffbfd2",
+    "#f597b7",
+    "#ff6f9c",
+    "#bff0dc",
+    "#86d6b9",
+    "#3fb98e"
+  ]
+}

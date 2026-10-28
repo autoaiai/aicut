@@ -1,0 +1,14 @@
+{
+  "number": 4,
+  "name": "Whiteboard Explainer",
+  "nameZh": "白板讲解",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "cover": "poster.webp",
+  "palette": [
+    "#1d1f26",
+    "#1f4fc2",
+    "#d4262f",
+    "#16884a"
+  ]
+}

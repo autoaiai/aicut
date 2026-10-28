@@ -8,6 +8,13 @@ Two skills, one job each: `aicut` is the film format and the four commands, `aic
 a real cover, `style.json` and the canvas source of each — with the three-card pick that turns one line of a topic into
 a chosen style.
 
+The archive is also here as eighty-six skills of its own — `001-flat-vector-science` … `086-multi-scale-truchet`, one
+folder per look, written from the archive by `node scripts/build-style-skills.mjs`. Each carries its own `poster.jpg`
+(the target), `reference/code.js` (how it moves), `reference/style.json` and a `skill.json` row, so one look can be
+handed to an agent on its own: "make the film in exactly this look". Nothing in one of them is invented — the palette
+is read out of its source, the cover's colours are sampled from its own picture, and the words are the archive's.
+Edit the archive, then run the script; never edit one of the eighty-six by hand.
+
 Both are written here. The archive inside `aicut-motion` came from an open-source agent skill
 ([the catalogue](https://asaipm.com/#skill)) — Futurepedia's AI Style Atlas — and was rewritten so the way it runs is
 AICUT's: `film.html` and the four commands. `THIRD_PARTY_NOTICES.md` inside the skill says where it came from and under

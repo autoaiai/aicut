@@ -1,0 +1,18 @@
+{
+  "number": 22,
+  "name": "16-Bit Pixel Odyssey",
+  "nameZh": "16位像素奇旅",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "cover": "poster.webp",
+  "palette": [
+    "#0a0618",
+    "#ff5a8a",
+    "#b02a6a",
+    "#ffc8a0",
+    "#3a6ad8",
+    "#22408a",
+    "#ffd27a",
+    "#3a2a5a"
+  ]
+}

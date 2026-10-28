@@ -1,0 +1,16 @@
+{
+  "number": 18,
+  "name": "Claymation Set",
+  "nameZh": "黏土定格布景",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "cover": "poster.webp",
+  "palette": [
+    "#f2c14e",
+    "#f07b5a",
+    "#f6efe3",
+    "#ef8fb0",
+    "#a8dd8a",
+    "#7fd0e0"
+  ]
+}

@@ -63,7 +63,7 @@ if (flag('--id')) {
   console.log(JSON.stringify({
     ...style,
     folder: one.folder,
-    poster: `assets/atlas/styles/${one.folder}/poster.jpg`,
+    poster: `assets/atlas/styles/${one.folder}/poster.webp`,
     code: style.code ? `assets/atlas/styles/${one.folder}/${style.code}` : null,
   }, null, 2));
   process.exit(0);
@@ -74,11 +74,11 @@ if (flag('--verify')) {
   for (const one of all) {
     const style = existsSync(join(one.at, 'style.json')) ? JSON.parse(readFileSync(join(one.at, 'style.json'), 'utf8')) : null;
     if (!style) missing.push(`${one.folder}: no style.json`);
-    else if (!existsSync(join(one.at, 'poster.jpg'))) missing.push(`${one.folder}: no poster.jpg`);
+    else if (!existsSync(join(one.at, 'poster.webp'))) missing.push(`${one.folder}: no poster.webp`);
     else if (style.code && !existsSync(join(one.at, style.code))) missing.push(`${one.folder}: no ${style.code}`);
   }
   const bytes = (p) => statSync(p).size;
-  const posters = all.reduce((sum, one) => sum + (existsSync(join(one.at, 'poster.jpg')) ? bytes(join(one.at, 'poster.jpg')) : 0), 0);
+  const posters = all.reduce((sum, one) => sum + (existsSync(join(one.at, 'poster.webp')) ? bytes(join(one.at, 'poster.webp')) : 0), 0);
   console.log(`${all.length} styles · ${Math.round(posters / 1024)} kB of covers · ${missing.length ? `${missing.length} incomplete` : 'complete'}`);
   for (const line of missing) console.log(`  ${line}`);
   process.exit(missing.length ? 1 : 0);
@@ -97,7 +97,7 @@ if (flag('--pick')) {
     mkdirSync(into, { recursive: true });
     const name = `${one.folder}.jpg`;
     const target = join(into, name);
-    copyFileSync(join(one.at, 'poster.jpg'), target);
+    copyFileSync(join(one.at, 'poster.webp'), target);
     /* the path the card takes is inside the project: the project's folder is where the chat loads pictures from */
     picked.push({ id: one.id, name: one.name, nameZh: one.nameZh, family: one.family, folder: one.folder, picture: relative(process.cwd(), target).split('\\').join('/') });
   }

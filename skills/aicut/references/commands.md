@@ -1,36 +1,53 @@
 # The commands
 
-Run them in the film's folder. `npx -y aicut@latest` alone prints the manual; `--help` after a command prints that
-command's options; `--version` prints the version. Exit status: **0** done, **1** the film or the command failed (the
-output says why), **2** not a project or a wrong command.
+There are five: `open`, `app`, `look`, `render`, `get`. Run them in the film's folder.
+`npx -y @autoaiai/aicut@latest` alone prints the manual; `--help` after a command
+prints that command's options; `--version` prints the version. Exit status: **0** done, **1** the film or the command
+failed (the output says why), **2** not a project or a wrong command.
 
-Use `npx -y aicut@latest` rather than a bare `aicut` unless something put one on your PATH: it is the newest, and
-`npx` otherwise keeps the first version it ever fetched.
+Use `npx -y @autoaiai/aicut@latest` rather than a bare `aicut` unless something put one on your PATH: it is the
+newest, and `npx` otherwise keeps the first version it ever fetched.
 
 ## open
 
 ```sh
-npx -y aicut@latest open                    # the project around this folder, else the last one, else Studio's list
-npx -y aicut@latest open launch-video       # a new film; the folder is made if missing
-npx -y aicut@latest open .                  # this folder becomes the film
-npx -y aicut@latest open https://github.com/aicut/examples/tree/main/one-prompt
+npx -y @autoaiai/aicut@latest open                    # the project around this folder, else the last one, else Studio's list
+npx -y @autoaiai/aicut@latest open launch-video       # a new film; the folder is made if missing
+npx -y @autoaiai/aicut@latest open .                  # this folder becomes the film
+npx -y @autoaiai/aicut@latest open https://github.com/aicut/examples/tree/main/one-prompt
 ```
 
 - A folder that is not a project gets an empty `film.html`, 1920 × 1080 (its viewport `<meta>`), no tracks. A code
   repository (`package.json`, `Cargo.toml`, `go.mod`, `pyproject.toml`…) gets a film folder of its own inside it.
 - A GitHub or GitLab address — a repository, or a folder in one (`…/tree/main/<folder>`) — is copied into the
   projects library without its git history, then opened.
-- Starts Studio if it is not running and prints its address. **Open that address in your browser before writing
-  anything** and keep it open: the person watches every change land. A page already open switches to the project; if
-  no page connects within 15 s, Studio opens the person's own browser (`AICUT_NO_BROWSER=1`: never).
+- Starts Studio if it is not running, prints its address, and **opens that address in the person's browser**: an agent
+  has none of its own, which is why `open` does it. There is nothing for you to open (`AICUT_NO_BROWSER=1`: nothing
+  opens, the address is yours). A page already open in a browser switches to the project.
+- If the machine has no AICUT app installed, `open` says so in one line. Do nothing about it unprompted: the browser
+  is the whole editor. When the person wants the desktop app, ask which is their wish and then run
+  `npx -y @autoaiai/aicut@latest app --download` (it fetches the installer; the person runs it).
+
+## app
+
+```sh
+npx -y @autoaiai/aicut@latest app               # is the app installed, and what is the newest release
+npx -y @autoaiai/aicut@latest app --download    # fetch the installer into ~/.aicut/download/ for the person to run
+```
+
+The app is AiCut the window — Studio with a chat beside it and its own ffmpeg and browser. It is optional: the package
+you run is the whole editor, and the person does not need the app. `app` says whether it is on this machine; never run
+`--download` without the person's yes — it is about 300 MB of their bandwidth and disk, and they install it themselves
+(the installer asks for a folder). A machine without a build for its platform (macOS today) is told where the download
+page is instead.
 
 ## look
 
 ```sh
-npx -y aicut@latest look               # the whole film: contact sheet, sound, loudness, same-t check
-npx -y aicut@latest look 4.5           # one frame, full size
-npx -y aicut@latest look 3-6           # a stretch, densely
-npx -y aicut@latest look assets/a.mp4  # a media file; also any .html page
+npx -y @autoaiai/aicut@latest look               # the whole film: contact sheet, sound, loudness, same-t check
+npx -y @autoaiai/aicut@latest look 4.5           # one frame, full size
+npx -y @autoaiai/aicut@latest look 3-6           # a stretch, densely
+npx -y @autoaiai/aicut@latest look assets/a.mp4  # a media file; also any .html page
 ```
 
 Writes PNGs under `.film/cache/look/` and prints their paths. `--count <n>`: frames in a sheet (12). A project Studio
@@ -39,8 +56,8 @@ has not shown yet is opened in Studio first, so the person watches it.
 ## render
 
 ```sh
-npx -y aicut@latest render             # the whole film → <project>/<folder name>.mp4, beside film.html
-npx -y aicut@latest render 12-20       # a range → .film/cache/render/
+npx -y @autoaiai/aicut@latest render             # the whole film → <project>/<folder name>.mp4, beside film.html
+npx -y @autoaiai/aicut@latest render 12-20       # a range → .film/cache/render/
 ```
 
 | Option | Meaning |
@@ -58,9 +75,9 @@ Only when the person asks for the file: you check with `look`, and they export f
 ## get
 
 ```sh
-npx -y aicut@latest get                # what works right now, and which service makes the rest
-npx -y aicut@latest get voice-over "A calm, low voice, 20 seconds"
-npx -y aicut@latest get music "warm analog synth, 90 bpm"
+npx -y @autoaiai/aicut@latest get                # what works right now, and which service makes the rest
+npx -y @autoaiai/aicut@latest get voice-over "A calm, low voice, 20 seconds"
+npx -y @autoaiai/aicut@latest get music "warm analog synth, 90 bpm"
 ```
 
 Kinds: voice-over, music, sound effects, transcripts, images, image search, video, web search. Each works only once

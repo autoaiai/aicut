@@ -1,0 +1,18 @@
+{
+  "number": 44,
+  "name": "Felt & Patchwork",
+  "nameZh": "毛毡与拼布",
+  "family": "Paper & Craft",
+  "familyZh": "纸艺与手工",
+  "cover": "poster.webp",
+  "palette": [
+    "#c9634d",
+    "#f3eadb",
+    "#e2b24a",
+    "#f7efdc",
+    "#8fae84",
+    "#eee4cf",
+    "#d98f86",
+    "#f6d9cf"
+  ]
+}

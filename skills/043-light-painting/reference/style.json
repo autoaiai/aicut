@@ -1,0 +1,13 @@
+{
+  "id": 43,
+  "name": "Light Painting",
+  "nameZh": "光绘",
+  "family": "Light & Imaging",
+  "familyZh": "光影与成像",
+  "description": "A 30-second exposure in a dark field: a neural network drawn in the air with an LED wand and a twisting rainbow light-tube ribbon, hand-jittered trails with hot cores and coloured falloff, a ghost of the painter, pinpoint stars, horizon bokeh and colour spill on the grass.",
+  "motionNotes": "Motion: Shot as a live-composite exposure: the wand traces node after node and fans out each layer of connections, the RGB tube sweeps the twisting ribbon around it, the word is written last, while the ghost painter slowly accumulates and star trails lengthen.",
+  "explainerNotes": "Explainer: Each beat is a fresh live long exposure: the wand traces doodles, arrows and handwriting with its glowing tip, orbs leave arcing light trails into the network, numbers come from an LED pixel-stick, the emphasis is a traced ring with a spark burst, and between beats the camera whip-pans so every trail smears into streaks.",
+  "code": "code.js",
+  "registeredAs": "light-painting",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "name": "Flat-Vector Science",
+  "nameZh": "扁平矢量科普",
+  "family": "Popular Explainer Looks",
+  "familyZh": "经典讲解",
+  "description": "Flat-vector science-explainer illustration: deep navy-to-violet space gradients, chunky outline-free shapes with rich multi-stop gradients, flat crescent shadows and rim highlights, soft radial glows, sparkly star fields, banded ringed planets and cute big-eyed round characters.",
+  "motionNotes": "Motion: Smooth eased motion with gentle overshoot: the camera pulls back through scales, planets drift with parallax, characters bob and pop in, glows pulse.",
+  "explainerNotes": "Explainer: Big smooth camera moves through scale: the model pulls back until a million examples become a spiral galaxy, a foreground planet sweeps across as the wipe, and the camera dives into the glowing brain dome to emerge at a planet whose ring is the accuracy bar; arrows are chunky dotted rounded curves, numbers are big rounded Nunito.",
+  "code": "code.js",
+  "registeredAs": "flat-space",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 25,
+  "name": "Cathedral Glass",
+  "nameZh": "教堂彩绘玻璃",
+  "family": "Painterly",
+  "familyZh": "绘画质感",
+  "description": "A leaded Gothic window: hand-cut pieces of streaky, seedy antique glass held in thick dark came, painted grisaille details, and light blazing through into a dim stone interior with dusty rays.",
+  "motionNotes": "Motion: Daylight sweeps slowly across the window so pieces brighten in turn, the rays drift with floating dust, and the chip in the saint's hands pulses.",
+  "explainerNotes": "Explainer: Told as a cycle of three leaded windows along a nave, the camera walking from window to window; arrows are strips of glass in lead came with glass arrowheads, labels and the counters are grisaille painted on pale banner glass, and emphasis is ruby glass rings and light flaring through the pieces.",
+  "code": "code.js",
+  "registeredAs": "stained-glass",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

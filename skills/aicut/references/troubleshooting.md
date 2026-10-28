@@ -1,7 +1,7 @@
 # When it does not work
 
-Look first, guess second: `npx -y aicut@latest look <page.html>` and `look <file>` draw what the host actually sees,
-and a page's uncaught errors are reported there.
+Look first, guess second: `npx -y @autoaiai/aicut@latest look <page.html>` and `look <file>` draw what the host
+actually sees, and a page's uncaught errors are reported there.
 
 ## The frame is black, or the page is blank
 
@@ -46,7 +46,7 @@ The same `t` must draw the same picture — `look` checks it. Causes, in the ord
 - **The first run hangs.** It is downloading a headless Chromium (about 100 MB). Behind a proxy, set `HTTPS_PROXY`
   for that download, or use the desktop app.
 - **An old version keeps answering.** `npx` remembers the first version it fetched for a name: always run
-  `npx -y aicut@latest`, and `--version` to see which one answered.
+  `npx -y @autoaiai/aicut@latest`, and `--version` to see which one answered.
 - **Studio does not open.** `open` prints the address even when no browser opened by itself; open it by hand.
   `AICUT_NO_BROWSER=1` stops it from ever opening one.
 

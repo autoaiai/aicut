@@ -1,0 +1,13 @@
+{
+  "id": 80,
+  "name": "Silkscreen Grid",
+  "nameZh": "丝网印刷网格",
+  "family": "Print",
+  "familyZh": "印刷质感",
+  "description": "A Warhol-style repeat portrait: the same robot pulled eight times through a grainy black photo screen over loose, hand-cut flat colour plates in garish combinations, each pull misregistered and streaked by the squeegee.",
+  "motionNotes": "Motion: Panels are printed one after another across the grid — background flood, then the loose colour shapes slap down, then the squeegee drags the black photo screen across with a wet ink bead — before a slow push-in on the finished wall.",
+  "explainerNotes": "Explainer: Each beat is its own silkscreened panel, pulled in order (flood, loose colour shapes, squeegee drags the black screen) while the camera travels the grid; black arrows are painted across the gutters between panels, counters are stencil type, emphasis is a colourway flicker, and the final pull-back reveals all six beats as one Warhol grid.",
+  "code": "code.js",
+  "registeredAs": "screenprint-grid",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 72,
+  "name": "Vector Arcade 1980",
+  "nameZh": "1980年代矢量街机",
+  "family": "Retro Digital",
+  "familyZh": "复古数字",
+  "description": "An XY vector monitor cabinet game: hair-thin phosphor beams on pure black, additive bloom, brighter dwell dots where the beam pauses at vertices, dimmer long strokes, wireframe 3D in perspective and a hand-built stroke font.",
+  "motionNotes": "Motion: Attract-mode build: the beam traces the horizon and mountains, wireframes draw on edge by edge, the AI core flies in from the distance spinning, the saucer slides in with phosphor trails, then the radar, score and title are stroked in letter by letter while everything flickers with beam load.",
+  "explainerNotes": "Explainer: Told as a vector-cabinet HUD: the question shrinks into a red corner readout, labelled wireframe cards stream into a spinning icosahedron core, a hyperspace-style zoom carries us into a lock-on loop (GUESS > CHECK > ADJUST with brackets, red error beam, turning weight dials), and the stroked accuracy graph climbs to a flashing 97%.",
+  "code": "code.js",
+  "registeredAs": "vector-arcade",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

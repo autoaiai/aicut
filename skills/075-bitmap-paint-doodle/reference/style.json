@@ -1,0 +1,13 @@
+{
+  "id": 75,
+  "name": "Bitmap Paint Doodle",
+  "nameZh": "位图画板涂鸦",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "description": "A proudly crude early-2000s bitmap painting: aliased pencil lines, real flood fills that leak through gaps, airbrush speckle, double-drawn rectangles and an opaque text-tool box, all inside a grey paint-program window.",
+  "motionNotes": "Motion: Strokes appear as if dragged by a mouse in real time, the bucket floods regions in one instant pop (and leaks), the airbrush speckles accumulate while held, and the text cursor blinks.",
+  "explainerNotes": "Explainer: Someone paints the explanation live on one wide bitmap: the camera move is the canvas scrolling (scrollbar thumb sliding), arrows are line/curve-tool strokes, examples pile up via Ctrl+V pastes, numbers are retyped in a text box, and emphasis is a fat red brush X and an ellipse-tool circle.",
+  "code": "code.js",
+  "registeredAs": "ms-paint",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

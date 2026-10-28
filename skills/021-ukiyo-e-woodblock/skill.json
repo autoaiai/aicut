@@ -1,0 +1,18 @@
+{
+  "number": 21,
+  "name": "Ukiyo-e Woodblock",
+  "nameZh": "浮世绘木版画",
+  "family": "Art & Design Movements",
+  "familyZh": "艺术与设计流派",
+  "cover": "poster.webp",
+  "palette": [
+    "#ecdfc2",
+    "#1b2236",
+    "#16304f",
+    "#24507e",
+    "#4d7ca6",
+    "#93b4cc",
+    "#c9d6d6",
+    "#f1e8d2"
+  ]
+}

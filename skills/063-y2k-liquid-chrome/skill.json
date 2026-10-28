@@ -1,0 +1,14 @@
+{
+  "number": 63,
+  "name": "Y2K Liquid Chrome",
+  "nameZh": "Y2K 液态铬",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "cover": "poster.webp",
+  "palette": [
+    "#7ff3ff",
+    "#c9a6ff",
+    "#ff9ee6",
+    "#b8f7ff"
+  ]
+}

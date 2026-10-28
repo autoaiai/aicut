@@ -1,0 +1,13 @@
+{
+  "id": 66,
+  "name": "Hidden-Line Wireframe",
+  "nameZh": "隐藏线框图",
+  "family": "Dimensional",
+  "familyZh": "立体空间",
+  "description": "Vector-display 3D: a perspective wire-mesh landscape with true hidden-line removal (back-to-front quads filled with the night before stroking), a wireframe moon, phosphor-cyan lines with bloom on deep navy, and HUD coordinate labels.",
+  "motionNotes": "Motion: HUD brackets snap on, the wireframe moon traces itself, then the hidden-line mesh is scanned in row by row from the camera to the horizon behind a bright scan front; markers lock on and labels type out while the camera glides forward and the scan keeps sweeping.",
+  "explainerNotes": "Explainer: Learning is shown as descent over the hidden-line “loss landscape”: the camera flies the mesh from a data-feed HUD streaming into the wireframe-sphere model, down to an amber “model weights” marker whose error becomes a dashed downhill vector, then follows it into the glowing basin; labels are bracketed HUD tags that type on, numbers are big Space Mono readouts.",
+  "code": "code.js",
+  "registeredAs": "wireframe-terrain",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "name": "Whiteboard Explainer",
+  "nameZh": "白板讲解",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "description": "Dry-erase marker on a glossy whiteboard: streaky chisel-tip strokes with pooled edges, wobbly double-traced boxes and arrows, a ghost of the last erased lesson, and a soft ceiling-light sheen.",
+  "motionNotes": "Motion: Each stroke draws on in sequence like a hand drawing it live, with labels written letter by letter and the sheen drifting slightly as the camera breathes.",
+  "explainerNotes": "Explainer: A marker in hand draws the diagram while the camera follows it across one big board; the felt eraser wipes the loop away (leaving ghost residue) to make room for the accuracy chart, and numbers are re-scrawled in marker.",
+  "code": "code.js",
+  "registeredAs": "whiteboard",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

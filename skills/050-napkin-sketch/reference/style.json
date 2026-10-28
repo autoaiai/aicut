@@ -1,0 +1,13 @@
+{
+  "id": 50,
+  "name": "Napkin Sketch",
+  "nameZh": "餐巾纸草图",
+  "family": "Hand-Drawn",
+  "familyZh": "手绘",
+  "description": "A back-of-the-napkin startup pitch in black Sharpie: ink feathering into soft tissue fibers, an embossed napkin border, quarter-fold creases and crumples, a coffee ring, all lying on a warm wooden cafe table.",
+  "motionNotes": "Motion: The marker scrawls each box and arrow in quick confident strokes while ink slowly feathers outward; the napkin breathes slightly as if just set down.",
+  "explainerNotes": "Explainer: A cafe-table pitch: the camera starts tight on the scrawled question then pulls back to the napkin; when a napkin is full a fresh one is slapped down on top of the pile (with a red Sharpie for the wrong guess and the 97%), arrows and numbers are fast Sharpie scrawls that feather into the tissue.",
+  "code": "code.js",
+  "registeredAs": "napkin-sketch",
+  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

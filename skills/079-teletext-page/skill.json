@@ -1,0 +1,18 @@
+{
+  "number": 79,
+  "name": "Teletext Page",
+  "nameZh": "图文电视页",
+  "family": "Retro UI & Neon",
+  "familyZh": "复古界面与霓虹",
+  "cover": "poster.webp",
+  "palette": [
+    "#000000",
+    "#ff0000",
+    "#00ff00",
+    "#ffff00",
+    "#0000ff",
+    "#ff00ff",
+    "#00ffff",
+    "#ffffff"
+  ]
+}
